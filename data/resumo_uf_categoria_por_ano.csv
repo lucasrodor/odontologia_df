@@ -1,0 +1,2400 @@
+uf,categoria,ano,quantidade
+AC,Auxiliar de Prótese Dentária,2010,4.0
+AC,Auxiliar de Prótese Dentária,2011,4.0
+AC,Auxiliar de Prótese Dentária,2012,8.0
+AC,Auxiliar de Prótese Dentária,2013,1.0
+AC,Auxiliar de Prótese Dentária,2014,4.0
+AC,Auxiliar de Prótese Dentária,2015,2.0
+AC,Auxiliar de Prótese Dentária,2017,1.0
+AC,Auxiliar de Prótese Dentária,2019,1.0
+AC,Auxiliar de Prótese Dentária,2021,1.0
+AC,Auxiliar de Prótese Dentária,2022,2.0
+AC,Auxiliar de Prótese Dentária,2023,1.0
+AC,Auxiliar de Prótese Dentária,2024,6.0
+AC,Auxiliar de Prótese Dentária,2025,7.0
+AC,Auxiliar em Saúde Bucal,2010,5.0
+AC,Auxiliar em Saúde Bucal,2011,6.0
+AC,Auxiliar em Saúde Bucal,2012,12.0
+AC,Auxiliar em Saúde Bucal,2013,17.0
+AC,Auxiliar em Saúde Bucal,2014,28.0
+AC,Auxiliar em Saúde Bucal,2015,44.0
+AC,Auxiliar em Saúde Bucal,2016,30.0
+AC,Auxiliar em Saúde Bucal,2017,41.0
+AC,Auxiliar em Saúde Bucal,2018,38.0
+AC,Auxiliar em Saúde Bucal,2019,49.0
+AC,Auxiliar em Saúde Bucal,2020,20.0
+AC,Auxiliar em Saúde Bucal,2021,27.0
+AC,Auxiliar em Saúde Bucal,2022,49.0
+AC,Auxiliar em Saúde Bucal,2023,80.0
+AC,Auxiliar em Saúde Bucal,2024,90.0
+AC,Auxiliar em Saúde Bucal,2025,57.0
+AC,Cirurgião Dentista,2010,18.0
+AC,Cirurgião Dentista,2011,15.0
+AC,Cirurgião Dentista,2012,37.0
+AC,Cirurgião Dentista,2013,23.0
+AC,Cirurgião Dentista,2014,64.0
+AC,Cirurgião Dentista,2015,31.0
+AC,Cirurgião Dentista,2016,60.0
+AC,Cirurgião Dentista,2017,42.0
+AC,Cirurgião Dentista,2018,108.0
+AC,Cirurgião Dentista,2019,114.0
+AC,Cirurgião Dentista,2020,92.0
+AC,Cirurgião Dentista,2021,118.0
+AC,Cirurgião Dentista,2022,92.0
+AC,Cirurgião Dentista,2023,165.0
+AC,Cirurgião Dentista,2024,123.0
+AC,Cirurgião Dentista,2025,65.0
+AC,Laboratório de Prótese Dentária,2010,1.0
+AC,Laboratório de Prótese Dentária,2022,1.0
+AC,Laboratório de Prótese Dentária,2025,4.0
+AC,Técnico em Prótese Dentária,2010,1.0
+AC,Técnico em Prótese Dentária,2011,3.0
+AC,Técnico em Prótese Dentária,2012,3.0
+AC,Técnico em Prótese Dentária,2013,2.0
+AC,Técnico em Prótese Dentária,2014,1.0
+AC,Técnico em Prótese Dentária,2015,3.0
+AC,Técnico em Prótese Dentária,2016,1.0
+AC,Técnico em Prótese Dentária,2017,1.0
+AC,Técnico em Prótese Dentária,2018,2.0
+AC,Técnico em Prótese Dentária,2021,2.0
+AC,Técnico em Prótese Dentária,2022,3.0
+AC,Técnico em Prótese Dentária,2023,2.0
+AC,Técnico em Prótese Dentária,2024,1.0
+AC,Técnico em Prótese Dentária,2025,4.0
+AC,Técnico em Saúde Bucal,2010,1.0
+AC,Técnico em Saúde Bucal,2012,2.0
+AC,Técnico em Saúde Bucal,2013,9.0
+AC,Técnico em Saúde Bucal,2014,16.0
+AC,Técnico em Saúde Bucal,2015,13.0
+AC,Técnico em Saúde Bucal,2016,16.0
+AC,Técnico em Saúde Bucal,2017,31.0
+AC,Técnico em Saúde Bucal,2018,27.0
+AC,Técnico em Saúde Bucal,2019,17.0
+AC,Técnico em Saúde Bucal,2020,15.0
+AC,Técnico em Saúde Bucal,2021,19.0
+AC,Técnico em Saúde Bucal,2022,32.0
+AC,Técnico em Saúde Bucal,2023,20.0
+AC,Técnico em Saúde Bucal,2024,26.0
+AC,Técnico em Saúde Bucal,2025,13.0
+AL,Auxiliar de Prótese Dentária,2012,3.0
+AL,Auxiliar de Prótese Dentária,2013,3.0
+AL,Auxiliar de Prótese Dentária,2014,3.0
+AL,Auxiliar de Prótese Dentária,2015,5.0
+AL,Auxiliar de Prótese Dentária,2016,2.0
+AL,Auxiliar de Prótese Dentária,2017,7.0
+AL,Auxiliar de Prótese Dentária,2018,3.0
+AL,Auxiliar de Prótese Dentária,2019,2.0
+AL,Auxiliar de Prótese Dentária,2020,4.0
+AL,Auxiliar de Prótese Dentária,2021,8.0
+AL,Auxiliar de Prótese Dentária,2022,4.0
+AL,Auxiliar de Prótese Dentária,2023,2.0
+AL,Auxiliar de Prótese Dentária,2024,6.0
+AL,Auxiliar de Prótese Dentária,2025,20.0
+AL,Auxiliar em Saúde Bucal,2010,49.0
+AL,Auxiliar em Saúde Bucal,2011,93.0
+AL,Auxiliar em Saúde Bucal,2012,140.0
+AL,Auxiliar em Saúde Bucal,2013,131.0
+AL,Auxiliar em Saúde Bucal,2014,94.0
+AL,Auxiliar em Saúde Bucal,2015,86.0
+AL,Auxiliar em Saúde Bucal,2016,117.0
+AL,Auxiliar em Saúde Bucal,2017,150.0
+AL,Auxiliar em Saúde Bucal,2018,130.0
+AL,Auxiliar em Saúde Bucal,2019,188.0
+AL,Auxiliar em Saúde Bucal,2020,93.0
+AL,Auxiliar em Saúde Bucal,2021,189.0
+AL,Auxiliar em Saúde Bucal,2022,142.0
+AL,Auxiliar em Saúde Bucal,2023,234.0
+AL,Auxiliar em Saúde Bucal,2024,267.0
+AL,Auxiliar em Saúde Bucal,2025,207.0
+AL,Cirurgião Dentista,2010,82.0
+AL,Cirurgião Dentista,2011,110.0
+AL,Cirurgião Dentista,2012,128.0
+AL,Cirurgião Dentista,2013,128.0
+AL,Cirurgião Dentista,2014,158.0
+AL,Cirurgião Dentista,2015,128.0
+AL,Cirurgião Dentista,2016,105.0
+AL,Cirurgião Dentista,2017,160.0
+AL,Cirurgião Dentista,2018,194.0
+AL,Cirurgião Dentista,2019,230.0
+AL,Cirurgião Dentista,2020,182.0
+AL,Cirurgião Dentista,2021,299.0
+AL,Cirurgião Dentista,2022,239.0
+AL,Cirurgião Dentista,2023,311.0
+AL,Cirurgião Dentista,2024,370.0
+AL,Cirurgião Dentista,2025,282.0
+AL,Laboratório de Prótese Dentária,2013,1.0
+AL,Laboratório de Prótese Dentária,2015,1.0
+AL,Laboratório de Prótese Dentária,2016,1.0
+AL,Laboratório de Prótese Dentária,2017,2.0
+AL,Laboratório de Prótese Dentária,2018,1.0
+AL,Laboratório de Prótese Dentária,2020,2.0
+AL,Laboratório de Prótese Dentária,2021,3.0
+AL,Laboratório de Prótese Dentária,2022,1.0
+AL,Laboratório de Prótese Dentária,2023,4.0
+AL,Laboratório de Prótese Dentária,2024,3.0
+AL,Laboratório de Prótese Dentária,2025,2.0
+AL,Técnico em Prótese Dentária,2010,5.0
+AL,Técnico em Prótese Dentária,2012,5.0
+AL,Técnico em Prótese Dentária,2013,11.0
+AL,Técnico em Prótese Dentária,2014,4.0
+AL,Técnico em Prótese Dentária,2015,3.0
+AL,Técnico em Prótese Dentária,2016,5.0
+AL,Técnico em Prótese Dentária,2017,10.0
+AL,Técnico em Prótese Dentária,2018,5.0
+AL,Técnico em Prótese Dentária,2019,3.0
+AL,Técnico em Prótese Dentária,2021,3.0
+AL,Técnico em Prótese Dentária,2022,7.0
+AL,Técnico em Prótese Dentária,2023,8.0
+AL,Técnico em Prótese Dentária,2024,8.0
+AL,Técnico em Prótese Dentária,2025,10.0
+AL,Técnico em Saúde Bucal,2010,3.0
+AL,Técnico em Saúde Bucal,2011,4.0
+AL,Técnico em Saúde Bucal,2012,5.0
+AL,Técnico em Saúde Bucal,2013,12.0
+AL,Técnico em Saúde Bucal,2014,17.0
+AL,Técnico em Saúde Bucal,2015,11.0
+AL,Técnico em Saúde Bucal,2016,10.0
+AL,Técnico em Saúde Bucal,2017,37.0
+AL,Técnico em Saúde Bucal,2018,14.0
+AL,Técnico em Saúde Bucal,2019,44.0
+AL,Técnico em Saúde Bucal,2020,31.0
+AL,Técnico em Saúde Bucal,2021,65.0
+AL,Técnico em Saúde Bucal,2022,53.0
+AL,Técnico em Saúde Bucal,2023,42.0
+AL,Técnico em Saúde Bucal,2024,67.0
+AL,Técnico em Saúde Bucal,2025,92.0
+AM,Auxiliar de Prótese Dentária,2013,7.0
+AM,Auxiliar de Prótese Dentária,2014,7.0
+AM,Auxiliar de Prótese Dentária,2015,2.0
+AM,Auxiliar de Prótese Dentária,2016,5.0
+AM,Auxiliar de Prótese Dentária,2017,5.0
+AM,Auxiliar de Prótese Dentária,2018,4.0
+AM,Auxiliar de Prótese Dentária,2019,1.0
+AM,Auxiliar de Prótese Dentária,2021,9.0
+AM,Auxiliar de Prótese Dentária,2022,14.0
+AM,Auxiliar de Prótese Dentária,2023,12.0
+AM,Auxiliar de Prótese Dentária,2024,6.0
+AM,Auxiliar de Prótese Dentária,2025,2.0
+AM,Auxiliar em Saúde Bucal,2010,111.0
+AM,Auxiliar em Saúde Bucal,2011,102.0
+AM,Auxiliar em Saúde Bucal,2012,100.0
+AM,Auxiliar em Saúde Bucal,2013,85.0
+AM,Auxiliar em Saúde Bucal,2014,99.0
+AM,Auxiliar em Saúde Bucal,2015,58.0
+AM,Auxiliar em Saúde Bucal,2016,53.0
+AM,Auxiliar em Saúde Bucal,2017,84.0
+AM,Auxiliar em Saúde Bucal,2018,71.0
+AM,Auxiliar em Saúde Bucal,2019,127.0
+AM,Auxiliar em Saúde Bucal,2020,67.0
+AM,Auxiliar em Saúde Bucal,2021,142.0
+AM,Auxiliar em Saúde Bucal,2022,146.0
+AM,Auxiliar em Saúde Bucal,2023,157.0
+AM,Auxiliar em Saúde Bucal,2024,143.0
+AM,Auxiliar em Saúde Bucal,2025,107.0
+AM,Cirurgião Dentista,2010,211.0
+AM,Cirurgião Dentista,2011,207.0
+AM,Cirurgião Dentista,2012,161.0
+AM,Cirurgião Dentista,2013,177.0
+AM,Cirurgião Dentista,2014,222.0
+AM,Cirurgião Dentista,2015,279.0
+AM,Cirurgião Dentista,2016,305.0
+AM,Cirurgião Dentista,2017,310.0
+AM,Cirurgião Dentista,2018,375.0
+AM,Cirurgião Dentista,2019,392.0
+AM,Cirurgião Dentista,2020,353.0
+AM,Cirurgião Dentista,2021,463.0
+AM,Cirurgião Dentista,2022,480.0
+AM,Cirurgião Dentista,2023,493.0
+AM,Cirurgião Dentista,2024,482.0
+AM,Cirurgião Dentista,2025,379.0
+AM,Laboratório de Prótese Dentária,2014,1.0
+AM,Laboratório de Prótese Dentária,2015,2.0
+AM,Laboratório de Prótese Dentária,2016,1.0
+AM,Laboratório de Prótese Dentária,2017,1.0
+AM,Laboratório de Prótese Dentária,2022,2.0
+AM,Laboratório de Prótese Dentária,2023,1.0
+AM,Laboratório de Prótese Dentária,2024,1.0
+AM,Técnico em Prótese Dentária,2010,7.0
+AM,Técnico em Prótese Dentária,2011,16.0
+AM,Técnico em Prótese Dentária,2012,6.0
+AM,Técnico em Prótese Dentária,2013,12.0
+AM,Técnico em Prótese Dentária,2014,17.0
+AM,Técnico em Prótese Dentária,2015,23.0
+AM,Técnico em Prótese Dentária,2016,13.0
+AM,Técnico em Prótese Dentária,2017,13.0
+AM,Técnico em Prótese Dentária,2018,8.0
+AM,Técnico em Prótese Dentária,2019,12.0
+AM,Técnico em Prótese Dentária,2020,15.0
+AM,Técnico em Prótese Dentária,2021,12.0
+AM,Técnico em Prótese Dentária,2022,14.0
+AM,Técnico em Prótese Dentária,2023,12.0
+AM,Técnico em Prótese Dentária,2024,20.0
+AM,Técnico em Prótese Dentária,2025,12.0
+AM,Técnico em Saúde Bucal,2010,90.0
+AM,Técnico em Saúde Bucal,2011,106.0
+AM,Técnico em Saúde Bucal,2012,74.0
+AM,Técnico em Saúde Bucal,2013,106.0
+AM,Técnico em Saúde Bucal,2014,97.0
+AM,Técnico em Saúde Bucal,2015,52.0
+AM,Técnico em Saúde Bucal,2016,108.0
+AM,Técnico em Saúde Bucal,2017,163.0
+AM,Técnico em Saúde Bucal,2018,114.0
+AM,Técnico em Saúde Bucal,2019,147.0
+AM,Técnico em Saúde Bucal,2020,62.0
+AM,Técnico em Saúde Bucal,2021,167.0
+AM,Técnico em Saúde Bucal,2022,138.0
+AM,Técnico em Saúde Bucal,2023,96.0
+AM,Técnico em Saúde Bucal,2024,107.0
+AM,Técnico em Saúde Bucal,2025,119.0
+AP,Auxiliar de Prótese Dentária,2010,2.0
+AP,Auxiliar de Prótese Dentária,2011,3.0
+AP,Auxiliar de Prótese Dentária,2012,5.0
+AP,Auxiliar de Prótese Dentária,2013,5.0
+AP,Auxiliar de Prótese Dentária,2018,2.0
+AP,Auxiliar de Prótese Dentária,2019,1.0
+AP,Auxiliar de Prótese Dentária,2022,1.0
+AP,Auxiliar em Saúde Bucal,2010,9.0
+AP,Auxiliar em Saúde Bucal,2011,22.0
+AP,Auxiliar em Saúde Bucal,2012,16.0
+AP,Auxiliar em Saúde Bucal,2013,11.0
+AP,Auxiliar em Saúde Bucal,2014,4.0
+AP,Auxiliar em Saúde Bucal,2015,8.0
+AP,Auxiliar em Saúde Bucal,2016,6.0
+AP,Auxiliar em Saúde Bucal,2017,6.0
+AP,Auxiliar em Saúde Bucal,2018,3.0
+AP,Auxiliar em Saúde Bucal,2019,8.0
+AP,Auxiliar em Saúde Bucal,2020,9.0
+AP,Auxiliar em Saúde Bucal,2021,10.0
+AP,Auxiliar em Saúde Bucal,2022,13.0
+AP,Auxiliar em Saúde Bucal,2023,46.0
+AP,Auxiliar em Saúde Bucal,2024,36.0
+AP,Auxiliar em Saúde Bucal,2025,24.0
+AP,Cirurgião Dentista,2010,22.0
+AP,Cirurgião Dentista,2011,13.0
+AP,Cirurgião Dentista,2012,36.0
+AP,Cirurgião Dentista,2013,37.0
+AP,Cirurgião Dentista,2014,54.0
+AP,Cirurgião Dentista,2015,52.0
+AP,Cirurgião Dentista,2016,65.0
+AP,Cirurgião Dentista,2017,121.0
+AP,Cirurgião Dentista,2018,146.0
+AP,Cirurgião Dentista,2019,189.0
+AP,Cirurgião Dentista,2020,109.0
+AP,Cirurgião Dentista,2021,133.0
+AP,Cirurgião Dentista,2022,95.0
+AP,Cirurgião Dentista,2023,109.0
+AP,Cirurgião Dentista,2024,109.0
+AP,Cirurgião Dentista,2025,70.0
+AP,Técnico em Prótese Dentária,2011,2.0
+AP,Técnico em Prótese Dentária,2012,6.0
+AP,Técnico em Prótese Dentária,2013,3.0
+AP,Técnico em Prótese Dentária,2014,1.0
+AP,Técnico em Prótese Dentária,2018,1.0
+AP,Técnico em Prótese Dentária,2022,2.0
+AP,Técnico em Prótese Dentária,2023,3.0
+AP,Técnico em Prótese Dentária,2024,7.0
+AP,Técnico em Prótese Dentária,2025,2.0
+AP,Técnico em Saúde Bucal,2010,11.0
+AP,Técnico em Saúde Bucal,2011,12.0
+AP,Técnico em Saúde Bucal,2012,64.0
+AP,Técnico em Saúde Bucal,2013,56.0
+AP,Técnico em Saúde Bucal,2014,42.0
+AP,Técnico em Saúde Bucal,2015,40.0
+AP,Técnico em Saúde Bucal,2016,40.0
+AP,Técnico em Saúde Bucal,2017,44.0
+AP,Técnico em Saúde Bucal,2018,33.0
+AP,Técnico em Saúde Bucal,2019,46.0
+AP,Técnico em Saúde Bucal,2020,27.0
+AP,Técnico em Saúde Bucal,2021,41.0
+AP,Técnico em Saúde Bucal,2022,66.0
+AP,Técnico em Saúde Bucal,2023,37.0
+AP,Técnico em Saúde Bucal,2024,34.0
+AP,Técnico em Saúde Bucal,2025,36.0
+BA,Auxiliar de Prótese Dentária,2017,1.0
+BA,Auxiliar de Prótese Dentária,2019,1.0
+BA,Auxiliar de Prótese Dentária,2021,2.0
+BA,Auxiliar de Prótese Dentária,2022,1.0
+BA,Auxiliar de Prótese Dentária,2023,1.0
+BA,Auxiliar de Prótese Dentária,2024,5.0
+BA,Auxiliar de Prótese Dentária,2025,2.0
+BA,Auxiliar em Saúde Bucal,2010,320.0
+BA,Auxiliar em Saúde Bucal,2011,422.0
+BA,Auxiliar em Saúde Bucal,2012,365.0
+BA,Auxiliar em Saúde Bucal,2013,490.0
+BA,Auxiliar em Saúde Bucal,2014,416.0
+BA,Auxiliar em Saúde Bucal,2015,427.0
+BA,Auxiliar em Saúde Bucal,2016,422.0
+BA,Auxiliar em Saúde Bucal,2017,542.0
+BA,Auxiliar em Saúde Bucal,2018,548.0
+BA,Auxiliar em Saúde Bucal,2019,608.0
+BA,Auxiliar em Saúde Bucal,2020,330.0
+BA,Auxiliar em Saúde Bucal,2021,684.0
+BA,Auxiliar em Saúde Bucal,2022,505.0
+BA,Auxiliar em Saúde Bucal,2023,641.0
+BA,Auxiliar em Saúde Bucal,2024,906.0
+BA,Auxiliar em Saúde Bucal,2025,731.0
+BA,Cirurgião Dentista,2010,547.0
+BA,Cirurgião Dentista,2011,429.0
+BA,Cirurgião Dentista,2012,473.0
+BA,Cirurgião Dentista,2013,497.0
+BA,Cirurgião Dentista,2014,479.0
+BA,Cirurgião Dentista,2015,474.0
+BA,Cirurgião Dentista,2016,682.0
+BA,Cirurgião Dentista,2017,920.0
+BA,Cirurgião Dentista,2018,912.0
+BA,Cirurgião Dentista,2019,1.153
+BA,Cirurgião Dentista,2020,898.0
+BA,Cirurgião Dentista,2021,1.518
+BA,Cirurgião Dentista,2022,1.521
+BA,Cirurgião Dentista,2023,1.548
+BA,Cirurgião Dentista,2024,1.957
+BA,Cirurgião Dentista,2025,1.437
+BA,Laboratório de Prótese Dentária,2010,1.0
+BA,Laboratório de Prótese Dentária,2011,5.0
+BA,Laboratório de Prótese Dentária,2012,5.0
+BA,Laboratório de Prótese Dentária,2013,5.0
+BA,Laboratório de Prótese Dentária,2014,4.0
+BA,Laboratório de Prótese Dentária,2015,5.0
+BA,Laboratório de Prótese Dentária,2016,1.0
+BA,Laboratório de Prótese Dentária,2017,5.0
+BA,Laboratório de Prótese Dentária,2018,7.0
+BA,Laboratório de Prótese Dentária,2019,4.0
+BA,Laboratório de Prótese Dentária,2020,2.0
+BA,Laboratório de Prótese Dentária,2021,10.0
+BA,Laboratório de Prótese Dentária,2022,12.0
+BA,Laboratório de Prótese Dentária,2023,12.0
+BA,Laboratório de Prótese Dentária,2024,11.0
+BA,Laboratório de Prótese Dentária,2025,15.0
+BA,Técnico em Prótese Dentária,2010,30.0
+BA,Técnico em Prótese Dentária,2011,31.0
+BA,Técnico em Prótese Dentária,2012,40.0
+BA,Técnico em Prótese Dentária,2013,34.0
+BA,Técnico em Prótese Dentária,2014,40.0
+BA,Técnico em Prótese Dentária,2015,27.0
+BA,Técnico em Prótese Dentária,2016,29.0
+BA,Técnico em Prótese Dentária,2017,43.0
+BA,Técnico em Prótese Dentária,2018,48.0
+BA,Técnico em Prótese Dentária,2019,38.0
+BA,Técnico em Prótese Dentária,2020,30.0
+BA,Técnico em Prótese Dentária,2021,45.0
+BA,Técnico em Prótese Dentária,2022,44.0
+BA,Técnico em Prótese Dentária,2023,41.0
+BA,Técnico em Prótese Dentária,2024,53.0
+BA,Técnico em Prótese Dentária,2025,58.0
+BA,Técnico em Saúde Bucal,2010,30.0
+BA,Técnico em Saúde Bucal,2011,80.0
+BA,Técnico em Saúde Bucal,2012,110.0
+BA,Técnico em Saúde Bucal,2013,88.0
+BA,Técnico em Saúde Bucal,2014,87.0
+BA,Técnico em Saúde Bucal,2015,96.0
+BA,Técnico em Saúde Bucal,2016,89.0
+BA,Técnico em Saúde Bucal,2017,125.0
+BA,Técnico em Saúde Bucal,2018,144.0
+BA,Técnico em Saúde Bucal,2019,188.0
+BA,Técnico em Saúde Bucal,2020,99.0
+BA,Técnico em Saúde Bucal,2021,218.0
+BA,Técnico em Saúde Bucal,2022,225.0
+BA,Técnico em Saúde Bucal,2023,258.0
+BA,Técnico em Saúde Bucal,2024,313.0
+BA,Técnico em Saúde Bucal,2025,252.0
+CE,Auxiliar de Prótese Dentária,2010,48.0
+CE,Auxiliar de Prótese Dentária,2011,18.0
+CE,Auxiliar de Prótese Dentária,2012,18.0
+CE,Auxiliar de Prótese Dentária,2013,6.0
+CE,Auxiliar de Prótese Dentária,2014,9.0
+CE,Auxiliar de Prótese Dentária,2015,30.0
+CE,Auxiliar de Prótese Dentária,2016,7.0
+CE,Auxiliar de Prótese Dentária,2017,25.0
+CE,Auxiliar de Prótese Dentária,2018,8.0
+CE,Auxiliar de Prótese Dentária,2019,31.0
+CE,Auxiliar de Prótese Dentária,2020,27.0
+CE,Auxiliar de Prótese Dentária,2021,38.0
+CE,Auxiliar de Prótese Dentária,2022,28.0
+CE,Auxiliar de Prótese Dentária,2023,24.0
+CE,Auxiliar de Prótese Dentária,2024,32.0
+CE,Auxiliar de Prótese Dentária,2025,18.0
+CE,Auxiliar em Saúde Bucal,2010,252.0
+CE,Auxiliar em Saúde Bucal,2011,193.0
+CE,Auxiliar em Saúde Bucal,2012,139.0
+CE,Auxiliar em Saúde Bucal,2013,180.0
+CE,Auxiliar em Saúde Bucal,2014,157.0
+CE,Auxiliar em Saúde Bucal,2015,229.0
+CE,Auxiliar em Saúde Bucal,2016,253.0
+CE,Auxiliar em Saúde Bucal,2017,309.0
+CE,Auxiliar em Saúde Bucal,2018,277.0
+CE,Auxiliar em Saúde Bucal,2019,235.0
+CE,Auxiliar em Saúde Bucal,2020,200.0
+CE,Auxiliar em Saúde Bucal,2021,329.0
+CE,Auxiliar em Saúde Bucal,2022,355.0
+CE,Auxiliar em Saúde Bucal,2023,408.0
+CE,Auxiliar em Saúde Bucal,2024,377.0
+CE,Auxiliar em Saúde Bucal,2025,328.0
+CE,Cirurgião Dentista,2010,220.0
+CE,Cirurgião Dentista,2011,260.0
+CE,Cirurgião Dentista,2012,264.0
+CE,Cirurgião Dentista,2013,284.0
+CE,Cirurgião Dentista,2014,312.0
+CE,Cirurgião Dentista,2015,296.0
+CE,Cirurgião Dentista,2016,389.0
+CE,Cirurgião Dentista,2017,459.0
+CE,Cirurgião Dentista,2018,528.0
+CE,Cirurgião Dentista,2019,662.0
+CE,Cirurgião Dentista,2020,664.0
+CE,Cirurgião Dentista,2021,758.0
+CE,Cirurgião Dentista,2022,918.0
+CE,Cirurgião Dentista,2023,795.0
+CE,Cirurgião Dentista,2024,1.289
+CE,Cirurgião Dentista,2025,1.036
+CE,Laboratório de Prótese Dentária,2010,1.0
+CE,Laboratório de Prótese Dentária,2011,5.0
+CE,Laboratório de Prótese Dentária,2012,7.0
+CE,Laboratório de Prótese Dentária,2013,2.0
+CE,Laboratório de Prótese Dentária,2014,7.0
+CE,Laboratório de Prótese Dentária,2015,8.0
+CE,Laboratório de Prótese Dentária,2016,9.0
+CE,Laboratório de Prótese Dentária,2017,10.0
+CE,Laboratório de Prótese Dentária,2018,9.0
+CE,Laboratório de Prótese Dentária,2019,6.0
+CE,Laboratório de Prótese Dentária,2020,6.0
+CE,Laboratório de Prótese Dentária,2021,3.0
+CE,Laboratório de Prótese Dentária,2022,5.0
+CE,Laboratório de Prótese Dentária,2023,7.0
+CE,Laboratório de Prótese Dentária,2024,13.0
+CE,Laboratório de Prótese Dentária,2025,6.0
+CE,Técnico em Prótese Dentária,2010,22.0
+CE,Técnico em Prótese Dentária,2011,33.0
+CE,Técnico em Prótese Dentária,2012,27.0
+CE,Técnico em Prótese Dentária,2013,27.0
+CE,Técnico em Prótese Dentária,2014,12.0
+CE,Técnico em Prótese Dentária,2015,22.0
+CE,Técnico em Prótese Dentária,2016,29.0
+CE,Técnico em Prótese Dentária,2017,26.0
+CE,Técnico em Prótese Dentária,2018,18.0
+CE,Técnico em Prótese Dentária,2019,25.0
+CE,Técnico em Prótese Dentária,2020,15.0
+CE,Técnico em Prótese Dentária,2021,17.0
+CE,Técnico em Prótese Dentária,2022,25.0
+CE,Técnico em Prótese Dentária,2023,36.0
+CE,Técnico em Prótese Dentária,2024,48.0
+CE,Técnico em Prótese Dentária,2025,25.0
+CE,Técnico em Saúde Bucal,2010,42.0
+CE,Técnico em Saúde Bucal,2011,68.0
+CE,Técnico em Saúde Bucal,2012,110.0
+CE,Técnico em Saúde Bucal,2013,114.0
+CE,Técnico em Saúde Bucal,2014,103.0
+CE,Técnico em Saúde Bucal,2015,149.0
+CE,Técnico em Saúde Bucal,2016,131.0
+CE,Técnico em Saúde Bucal,2017,138.0
+CE,Técnico em Saúde Bucal,2018,170.0
+CE,Técnico em Saúde Bucal,2019,166.0
+CE,Técnico em Saúde Bucal,2020,187.0
+CE,Técnico em Saúde Bucal,2021,279.0
+CE,Técnico em Saúde Bucal,2022,244.0
+CE,Técnico em Saúde Bucal,2023,239.0
+CE,Técnico em Saúde Bucal,2024,317.0
+CE,Técnico em Saúde Bucal,2025,229.0
+DF,Auxiliar de Prótese Dentária,2010,1.0
+DF,Auxiliar de Prótese Dentária,2011,5.0
+DF,Auxiliar de Prótese Dentária,2012,2.0
+DF,Auxiliar de Prótese Dentária,2013,1.0
+DF,Auxiliar de Prótese Dentária,2014,1.0
+DF,Auxiliar de Prótese Dentária,2016,1.0
+DF,Auxiliar de Prótese Dentária,2017,1.0
+DF,Auxiliar de Prótese Dentária,2018,3.0
+DF,Auxiliar de Prótese Dentária,2019,5.0
+DF,Auxiliar de Prótese Dentária,2021,3.0
+DF,Auxiliar de Prótese Dentária,2022,2.0
+DF,Auxiliar de Prótese Dentária,2023,4.0
+DF,Auxiliar de Prótese Dentária,2024,4.0
+DF,Auxiliar de Prótese Dentária,2025,1.0
+DF,Auxiliar em Saúde Bucal,2010,124.0
+DF,Auxiliar em Saúde Bucal,2011,258.0
+DF,Auxiliar em Saúde Bucal,2012,140.0
+DF,Auxiliar em Saúde Bucal,2013,221.0
+DF,Auxiliar em Saúde Bucal,2014,125.0
+DF,Auxiliar em Saúde Bucal,2015,165.0
+DF,Auxiliar em Saúde Bucal,2016,165.0
+DF,Auxiliar em Saúde Bucal,2017,157.0
+DF,Auxiliar em Saúde Bucal,2018,172.0
+DF,Auxiliar em Saúde Bucal,2019,180.0
+DF,Auxiliar em Saúde Bucal,2020,155.0
+DF,Auxiliar em Saúde Bucal,2021,395.0
+DF,Auxiliar em Saúde Bucal,2022,219.0
+DF,Auxiliar em Saúde Bucal,2023,204.0
+DF,Auxiliar em Saúde Bucal,2024,239.0
+DF,Auxiliar em Saúde Bucal,2025,194.0
+DF,Cirurgião Dentista,2010,236.0
+DF,Cirurgião Dentista,2011,243.0
+DF,Cirurgião Dentista,2012,209.0
+DF,Cirurgião Dentista,2013,238.0
+DF,Cirurgião Dentista,2014,193.0
+DF,Cirurgião Dentista,2015,323.0
+DF,Cirurgião Dentista,2016,250.0
+DF,Cirurgião Dentista,2017,279.0
+DF,Cirurgião Dentista,2018,303.0
+DF,Cirurgião Dentista,2019,449.0
+DF,Cirurgião Dentista,2020,380.0
+DF,Cirurgião Dentista,2021,537.0
+DF,Cirurgião Dentista,2022,517.0
+DF,Cirurgião Dentista,2023,551.0
+DF,Cirurgião Dentista,2024,693.0
+DF,Cirurgião Dentista,2025,638.0
+DF,Laboratório de Prótese Dentária,2010,1.0
+DF,Laboratório de Prótese Dentária,2011,1.0
+DF,Laboratório de Prótese Dentária,2012,3.0
+DF,Laboratório de Prótese Dentária,2013,3.0
+DF,Laboratório de Prótese Dentária,2014,3.0
+DF,Laboratório de Prótese Dentária,2015,2.0
+DF,Laboratório de Prótese Dentária,2016,9.0
+DF,Laboratório de Prótese Dentária,2017,4.0
+DF,Laboratório de Prótese Dentária,2018,2.0
+DF,Laboratório de Prótese Dentária,2019,4.0
+DF,Laboratório de Prótese Dentária,2020,1.0
+DF,Laboratório de Prótese Dentária,2021,6.0
+DF,Laboratório de Prótese Dentária,2022,5.0
+DF,Laboratório de Prótese Dentária,2023,4.0
+DF,Laboratório de Prótese Dentária,2024,12.0
+DF,Laboratório de Prótese Dentária,2025,6.0
+DF,Técnico em Prótese Dentária,2010,16.0
+DF,Técnico em Prótese Dentária,2011,18.0
+DF,Técnico em Prótese Dentária,2012,17.0
+DF,Técnico em Prótese Dentária,2013,30.0
+DF,Técnico em Prótese Dentária,2014,14.0
+DF,Técnico em Prótese Dentária,2015,16.0
+DF,Técnico em Prótese Dentária,2016,14.0
+DF,Técnico em Prótese Dentária,2017,14.0
+DF,Técnico em Prótese Dentária,2018,6.0
+DF,Técnico em Prótese Dentária,2019,13.0
+DF,Técnico em Prótese Dentária,2020,9.0
+DF,Técnico em Prótese Dentária,2021,25.0
+DF,Técnico em Prótese Dentária,2022,9.0
+DF,Técnico em Prótese Dentária,2023,12.0
+DF,Técnico em Prótese Dentária,2024,18.0
+DF,Técnico em Prótese Dentária,2025,11.0
+DF,Técnico em Saúde Bucal,2010,34.0
+DF,Técnico em Saúde Bucal,2011,72.0
+DF,Técnico em Saúde Bucal,2012,81.0
+DF,Técnico em Saúde Bucal,2013,95.0
+DF,Técnico em Saúde Bucal,2014,65.0
+DF,Técnico em Saúde Bucal,2015,120.0
+DF,Técnico em Saúde Bucal,2016,142.0
+DF,Técnico em Saúde Bucal,2017,167.0
+DF,Técnico em Saúde Bucal,2018,127.0
+DF,Técnico em Saúde Bucal,2019,126.0
+DF,Técnico em Saúde Bucal,2020,79.0
+DF,Técnico em Saúde Bucal,2021,132.0
+DF,Técnico em Saúde Bucal,2022,115.0
+DF,Técnico em Saúde Bucal,2023,112.0
+DF,Técnico em Saúde Bucal,2024,100.0
+DF,Técnico em Saúde Bucal,2025,67.0
+ES,Auxiliar de Prótese Dentária,2010,6.0
+ES,Auxiliar de Prótese Dentária,2011,7.0
+ES,Auxiliar de Prótese Dentária,2012,6.0
+ES,Auxiliar de Prótese Dentária,2013,8.0
+ES,Auxiliar de Prótese Dentária,2014,18.0
+ES,Auxiliar de Prótese Dentária,2015,22.0
+ES,Auxiliar de Prótese Dentária,2016,7.0
+ES,Auxiliar de Prótese Dentária,2017,5.0
+ES,Auxiliar de Prótese Dentária,2018,13.0
+ES,Auxiliar de Prótese Dentária,2019,8.0
+ES,Auxiliar de Prótese Dentária,2020,3.0
+ES,Auxiliar de Prótese Dentária,2021,1.0
+ES,Auxiliar de Prótese Dentária,2022,11.0
+ES,Auxiliar de Prótese Dentária,2023,17.0
+ES,Auxiliar de Prótese Dentária,2024,22.0
+ES,Auxiliar de Prótese Dentária,2025,29.0
+ES,Auxiliar em Saúde Bucal,2010,162.0
+ES,Auxiliar em Saúde Bucal,2011,134.0
+ES,Auxiliar em Saúde Bucal,2012,94.0
+ES,Auxiliar em Saúde Bucal,2013,185.0
+ES,Auxiliar em Saúde Bucal,2014,208.0
+ES,Auxiliar em Saúde Bucal,2015,230.0
+ES,Auxiliar em Saúde Bucal,2016,195.0
+ES,Auxiliar em Saúde Bucal,2017,221.0
+ES,Auxiliar em Saúde Bucal,2018,225.0
+ES,Auxiliar em Saúde Bucal,2019,345.0
+ES,Auxiliar em Saúde Bucal,2020,215.0
+ES,Auxiliar em Saúde Bucal,2021,286.0
+ES,Auxiliar em Saúde Bucal,2022,285.0
+ES,Auxiliar em Saúde Bucal,2023,352.0
+ES,Auxiliar em Saúde Bucal,2024,405.0
+ES,Auxiliar em Saúde Bucal,2025,376.0
+ES,Cirurgião Dentista,2010,141.0
+ES,Cirurgião Dentista,2011,179.0
+ES,Cirurgião Dentista,2012,175.0
+ES,Cirurgião Dentista,2013,201.0
+ES,Cirurgião Dentista,2014,186.0
+ES,Cirurgião Dentista,2015,182.0
+ES,Cirurgião Dentista,2016,256.0
+ES,Cirurgião Dentista,2017,275.0
+ES,Cirurgião Dentista,2018,339.0
+ES,Cirurgião Dentista,2019,355.0
+ES,Cirurgião Dentista,2020,411.0
+ES,Cirurgião Dentista,2021,504.0
+ES,Cirurgião Dentista,2022,599.0
+ES,Cirurgião Dentista,2023,536.0
+ES,Cirurgião Dentista,2024,621.0
+ES,Cirurgião Dentista,2025,446.0
+ES,Laboratório de Prótese Dentária,2010,3.0
+ES,Laboratório de Prótese Dentária,2011,8.0
+ES,Laboratório de Prótese Dentária,2012,12.0
+ES,Laboratório de Prótese Dentária,2013,3.0
+ES,Laboratório de Prótese Dentária,2014,9.0
+ES,Laboratório de Prótese Dentária,2015,11.0
+ES,Laboratório de Prótese Dentária,2016,6.0
+ES,Laboratório de Prótese Dentária,2017,2.0
+ES,Laboratório de Prótese Dentária,2018,6.0
+ES,Laboratório de Prótese Dentária,2019,10.0
+ES,Laboratório de Prótese Dentária,2020,4.0
+ES,Laboratório de Prótese Dentária,2021,1.0
+ES,Laboratório de Prótese Dentária,2022,5.0
+ES,Laboratório de Prótese Dentária,2023,12.0
+ES,Laboratório de Prótese Dentária,2024,29.0
+ES,Laboratório de Prótese Dentária,2025,14.0
+ES,Técnico em Prótese Dentária,2010,8.0
+ES,Técnico em Prótese Dentária,2011,12.0
+ES,Técnico em Prótese Dentária,2012,19.0
+ES,Técnico em Prótese Dentária,2013,29.0
+ES,Técnico em Prótese Dentária,2014,19.0
+ES,Técnico em Prótese Dentária,2015,21.0
+ES,Técnico em Prótese Dentária,2016,23.0
+ES,Técnico em Prótese Dentária,2017,11.0
+ES,Técnico em Prótese Dentária,2018,22.0
+ES,Técnico em Prótese Dentária,2019,26.0
+ES,Técnico em Prótese Dentária,2020,10.0
+ES,Técnico em Prótese Dentária,2021,24.0
+ES,Técnico em Prótese Dentária,2022,19.0
+ES,Técnico em Prótese Dentária,2023,13.0
+ES,Técnico em Prótese Dentária,2024,37.0
+ES,Técnico em Prótese Dentária,2025,24.0
+ES,Técnico em Saúde Bucal,2010,12.0
+ES,Técnico em Saúde Bucal,2011,25.0
+ES,Técnico em Saúde Bucal,2012,6.0
+ES,Técnico em Saúde Bucal,2013,22.0
+ES,Técnico em Saúde Bucal,2014,23.0
+ES,Técnico em Saúde Bucal,2015,22.0
+ES,Técnico em Saúde Bucal,2016,33.0
+ES,Técnico em Saúde Bucal,2017,45.0
+ES,Técnico em Saúde Bucal,2018,21.0
+ES,Técnico em Saúde Bucal,2019,29.0
+ES,Técnico em Saúde Bucal,2020,18.0
+ES,Técnico em Saúde Bucal,2021,21.0
+ES,Técnico em Saúde Bucal,2022,33.0
+ES,Técnico em Saúde Bucal,2023,45.0
+ES,Técnico em Saúde Bucal,2024,72.0
+ES,Técnico em Saúde Bucal,2025,43.0
+GO,Auxiliar de Prótese Dentária,2010,9.0
+GO,Auxiliar de Prótese Dentária,2011,18.0
+GO,Auxiliar de Prótese Dentária,2012,6.0
+GO,Auxiliar de Prótese Dentária,2013,4.0
+GO,Auxiliar de Prótese Dentária,2014,1.0
+GO,Auxiliar de Prótese Dentária,2015,8.0
+GO,Auxiliar de Prótese Dentária,2016,2.0
+GO,Auxiliar de Prótese Dentária,2017,16.0
+GO,Auxiliar de Prótese Dentária,2018,13.0
+GO,Auxiliar de Prótese Dentária,2019,15.0
+GO,Auxiliar de Prótese Dentária,2021,16.0
+GO,Auxiliar de Prótese Dentária,2022,13.0
+GO,Auxiliar de Prótese Dentária,2023,12.0
+GO,Auxiliar de Prótese Dentária,2024,10.0
+GO,Auxiliar de Prótese Dentária,2025,5.0
+GO,Auxiliar em Saúde Bucal,2010,264.0
+GO,Auxiliar em Saúde Bucal,2011,263.0
+GO,Auxiliar em Saúde Bucal,2012,315.0
+GO,Auxiliar em Saúde Bucal,2013,313.0
+GO,Auxiliar em Saúde Bucal,2014,329.0
+GO,Auxiliar em Saúde Bucal,2015,396.0
+GO,Auxiliar em Saúde Bucal,2016,431.0
+GO,Auxiliar em Saúde Bucal,2017,611.0
+GO,Auxiliar em Saúde Bucal,2018,605.0
+GO,Auxiliar em Saúde Bucal,2019,652.0
+GO,Auxiliar em Saúde Bucal,2020,413.0
+GO,Auxiliar em Saúde Bucal,2021,843.0
+GO,Auxiliar em Saúde Bucal,2022,723.0
+GO,Auxiliar em Saúde Bucal,2023,686.0
+GO,Auxiliar em Saúde Bucal,2024,778.0
+GO,Auxiliar em Saúde Bucal,2025,463.0
+GO,Cirurgião Dentista,2010,359.0
+GO,Cirurgião Dentista,2011,313.0
+GO,Cirurgião Dentista,2012,392.0
+GO,Cirurgião Dentista,2013,417.0
+GO,Cirurgião Dentista,2014,449.0
+GO,Cirurgião Dentista,2015,475.0
+GO,Cirurgião Dentista,2016,539.0
+GO,Cirurgião Dentista,2017,574.0
+GO,Cirurgião Dentista,2018,638.0
+GO,Cirurgião Dentista,2019,742.0
+GO,Cirurgião Dentista,2020,748.0
+GO,Cirurgião Dentista,2021,974.0
+GO,Cirurgião Dentista,2022,952.0
+GO,Cirurgião Dentista,2023,1.102
+GO,Cirurgião Dentista,2024,1.427
+GO,Cirurgião Dentista,2025,1.185
+GO,Laboratório de Prótese Dentária,2010,1.0
+GO,Laboratório de Prótese Dentária,2011,2.0
+GO,Laboratório de Prótese Dentária,2012,5.0
+GO,Laboratório de Prótese Dentária,2013,5.0
+GO,Laboratório de Prótese Dentária,2014,5.0
+GO,Laboratório de Prótese Dentária,2015,8.0
+GO,Laboratório de Prótese Dentária,2016,3.0
+GO,Laboratório de Prótese Dentária,2017,13.0
+GO,Laboratório de Prótese Dentária,2018,15.0
+GO,Laboratório de Prótese Dentária,2019,11.0
+GO,Laboratório de Prótese Dentária,2020,4.0
+GO,Laboratório de Prótese Dentária,2021,8.0
+GO,Laboratório de Prótese Dentária,2022,10.0
+GO,Laboratório de Prótese Dentária,2023,10.0
+GO,Laboratório de Prótese Dentária,2024,20.0
+GO,Laboratório de Prótese Dentária,2025,14.0
+GO,Técnico em Prótese Dentária,2010,51.0
+GO,Técnico em Prótese Dentária,2011,58.0
+GO,Técnico em Prótese Dentária,2012,59.0
+GO,Técnico em Prótese Dentária,2013,60.0
+GO,Técnico em Prótese Dentária,2014,40.0
+GO,Técnico em Prótese Dentária,2015,39.0
+GO,Técnico em Prótese Dentária,2016,36.0
+GO,Técnico em Prótese Dentária,2017,36.0
+GO,Técnico em Prótese Dentária,2018,34.0
+GO,Técnico em Prótese Dentária,2019,32.0
+GO,Técnico em Prótese Dentária,2020,22.0
+GO,Técnico em Prótese Dentária,2021,42.0
+GO,Técnico em Prótese Dentária,2022,50.0
+GO,Técnico em Prótese Dentária,2023,41.0
+GO,Técnico em Prótese Dentária,2024,47.0
+GO,Técnico em Prótese Dentária,2025,22.0
+GO,Técnico em Saúde Bucal,2010,20.0
+GO,Técnico em Saúde Bucal,2011,31.0
+GO,Técnico em Saúde Bucal,2012,35.0
+GO,Técnico em Saúde Bucal,2013,47.0
+GO,Técnico em Saúde Bucal,2014,33.0
+GO,Técnico em Saúde Bucal,2015,48.0
+GO,Técnico em Saúde Bucal,2016,63.0
+GO,Técnico em Saúde Bucal,2017,71.0
+GO,Técnico em Saúde Bucal,2018,65.0
+GO,Técnico em Saúde Bucal,2019,60.0
+GO,Técnico em Saúde Bucal,2020,47.0
+GO,Técnico em Saúde Bucal,2021,107.0
+GO,Técnico em Saúde Bucal,2022,101.0
+GO,Técnico em Saúde Bucal,2023,79.0
+GO,Técnico em Saúde Bucal,2024,120.0
+GO,Técnico em Saúde Bucal,2025,84.0
+MA,Auxiliar de Prótese Dentária,2019,1.0
+MA,Auxiliar de Prótese Dentária,2020,2.0
+MA,Auxiliar de Prótese Dentária,2021,4.0
+MA,Auxiliar de Prótese Dentária,2022,10.0
+MA,Auxiliar de Prótese Dentária,2023,2.0
+MA,Auxiliar de Prótese Dentária,2024,4.0
+MA,Auxiliar em Saúde Bucal,2010,73.0
+MA,Auxiliar em Saúde Bucal,2011,80.0
+MA,Auxiliar em Saúde Bucal,2012,72.0
+MA,Auxiliar em Saúde Bucal,2013,63.0
+MA,Auxiliar em Saúde Bucal,2014,46.0
+MA,Auxiliar em Saúde Bucal,2015,47.0
+MA,Auxiliar em Saúde Bucal,2016,51.0
+MA,Auxiliar em Saúde Bucal,2017,98.0
+MA,Auxiliar em Saúde Bucal,2018,52.0
+MA,Auxiliar em Saúde Bucal,2019,60.0
+MA,Auxiliar em Saúde Bucal,2020,39.0
+MA,Auxiliar em Saúde Bucal,2021,108.0
+MA,Auxiliar em Saúde Bucal,2022,105.0
+MA,Auxiliar em Saúde Bucal,2023,95.0
+MA,Auxiliar em Saúde Bucal,2024,113.0
+MA,Auxiliar em Saúde Bucal,2025,121.0
+MA,Cirurgião Dentista,2010,157.0
+MA,Cirurgião Dentista,2011,196.0
+MA,Cirurgião Dentista,2012,198.0
+MA,Cirurgião Dentista,2013,261.0
+MA,Cirurgião Dentista,2014,184.0
+MA,Cirurgião Dentista,2015,188.0
+MA,Cirurgião Dentista,2016,325.0
+MA,Cirurgião Dentista,2017,251.0
+MA,Cirurgião Dentista,2018,373.0
+MA,Cirurgião Dentista,2019,394.0
+MA,Cirurgião Dentista,2020,459.0
+MA,Cirurgião Dentista,2021,475.0
+MA,Cirurgião Dentista,2022,577.0
+MA,Cirurgião Dentista,2023,534.0
+MA,Cirurgião Dentista,2024,650.0
+MA,Cirurgião Dentista,2025,515.0
+MA,Laboratório de Prótese Dentária,2010,1.0
+MA,Laboratório de Prótese Dentária,2012,2.0
+MA,Laboratório de Prótese Dentária,2014,2.0
+MA,Laboratório de Prótese Dentária,2015,1.0
+MA,Laboratório de Prótese Dentária,2016,2.0
+MA,Laboratório de Prótese Dentária,2017,4.0
+MA,Laboratório de Prótese Dentária,2018,2.0
+MA,Laboratório de Prótese Dentária,2019,3.0
+MA,Laboratório de Prótese Dentária,2020,2.0
+MA,Laboratório de Prótese Dentária,2021,9.0
+MA,Laboratório de Prótese Dentária,2022,5.0
+MA,Laboratório de Prótese Dentária,2023,4.0
+MA,Laboratório de Prótese Dentária,2024,9.0
+MA,Laboratório de Prótese Dentária,2025,4.0
+MA,Técnico em Prótese Dentária,2010,10.0
+MA,Técnico em Prótese Dentária,2011,4.0
+MA,Técnico em Prótese Dentária,2012,15.0
+MA,Técnico em Prótese Dentária,2013,20.0
+MA,Técnico em Prótese Dentária,2014,14.0
+MA,Técnico em Prótese Dentária,2015,26.0
+MA,Técnico em Prótese Dentária,2016,15.0
+MA,Técnico em Prótese Dentária,2017,26.0
+MA,Técnico em Prótese Dentária,2018,12.0
+MA,Técnico em Prótese Dentária,2019,27.0
+MA,Técnico em Prótese Dentária,2020,27.0
+MA,Técnico em Prótese Dentária,2021,32.0
+MA,Técnico em Prótese Dentária,2022,26.0
+MA,Técnico em Prótese Dentária,2023,17.0
+MA,Técnico em Prótese Dentária,2024,13.0
+MA,Técnico em Prótese Dentária,2025,10.0
+MA,Técnico em Saúde Bucal,2010,11.0
+MA,Técnico em Saúde Bucal,2011,21.0
+MA,Técnico em Saúde Bucal,2012,31.0
+MA,Técnico em Saúde Bucal,2013,46.0
+MA,Técnico em Saúde Bucal,2014,45.0
+MA,Técnico em Saúde Bucal,2015,51.0
+MA,Técnico em Saúde Bucal,2016,54.0
+MA,Técnico em Saúde Bucal,2017,109.0
+MA,Técnico em Saúde Bucal,2018,96.0
+MA,Técnico em Saúde Bucal,2019,102.0
+MA,Técnico em Saúde Bucal,2020,117.0
+MA,Técnico em Saúde Bucal,2021,192.0
+MA,Técnico em Saúde Bucal,2022,133.0
+MA,Técnico em Saúde Bucal,2023,113.0
+MA,Técnico em Saúde Bucal,2024,167.0
+MA,Técnico em Saúde Bucal,2025,116.0
+MG,Auxiliar de Prótese Dentária,2010,30.0
+MG,Auxiliar de Prótese Dentária,2011,28.0
+MG,Auxiliar de Prótese Dentária,2012,19.0
+MG,Auxiliar de Prótese Dentária,2013,32.0
+MG,Auxiliar de Prótese Dentária,2014,36.0
+MG,Auxiliar de Prótese Dentária,2015,50.0
+MG,Auxiliar de Prótese Dentária,2016,45.0
+MG,Auxiliar de Prótese Dentária,2017,27.0
+MG,Auxiliar de Prótese Dentária,2018,29.0
+MG,Auxiliar de Prótese Dentária,2019,34.0
+MG,Auxiliar de Prótese Dentária,2020,15.0
+MG,Auxiliar de Prótese Dentária,2021,58.0
+MG,Auxiliar de Prótese Dentária,2022,57.0
+MG,Auxiliar de Prótese Dentária,2023,99.0
+MG,Auxiliar de Prótese Dentária,2024,74.0
+MG,Auxiliar de Prótese Dentária,2025,37.0
+MG,Auxiliar em Saúde Bucal,2010,477.0
+MG,Auxiliar em Saúde Bucal,2011,613.0
+MG,Auxiliar em Saúde Bucal,2012,542.0
+MG,Auxiliar em Saúde Bucal,2013,644.0
+MG,Auxiliar em Saúde Bucal,2014,806.0
+MG,Auxiliar em Saúde Bucal,2015,761.0
+MG,Auxiliar em Saúde Bucal,2016,898.0
+MG,Auxiliar em Saúde Bucal,2017,1.188
+MG,Auxiliar em Saúde Bucal,2018,953.0
+MG,Auxiliar em Saúde Bucal,2019,1.363
+MG,Auxiliar em Saúde Bucal,2020,822.0
+MG,Auxiliar em Saúde Bucal,2021,1.562
+MG,Auxiliar em Saúde Bucal,2022,1.483
+MG,Auxiliar em Saúde Bucal,2023,1.706
+MG,Auxiliar em Saúde Bucal,2024,1.533
+MG,Auxiliar em Saúde Bucal,2025,1.232
+MG,Cirurgião Dentista,2010,991.0
+MG,Cirurgião Dentista,2011,987.0
+MG,Cirurgião Dentista,2012,947.0
+MG,Cirurgião Dentista,2013,1.141
+MG,Cirurgião Dentista,2014,1.192
+MG,Cirurgião Dentista,2015,1.226
+MG,Cirurgião Dentista,2016,1.466
+MG,Cirurgião Dentista,2017,1.888
+MG,Cirurgião Dentista,2018,2.073
+MG,Cirurgião Dentista,2019,2.385
+MG,Cirurgião Dentista,2020,2.019
+MG,Cirurgião Dentista,2021,2.758
+MG,Cirurgião Dentista,2022,3.307
+MG,Cirurgião Dentista,2023,3.528
+MG,Cirurgião Dentista,2024,3.938
+MG,Cirurgião Dentista,2025,3.267
+MG,Laboratório de Prótese Dentária,2010,5.0
+MG,Laboratório de Prótese Dentária,2011,12.0
+MG,Laboratório de Prótese Dentária,2012,7.0
+MG,Laboratório de Prótese Dentária,2013,15.0
+MG,Laboratório de Prótese Dentária,2014,22.0
+MG,Laboratório de Prótese Dentária,2015,16.0
+MG,Laboratório de Prótese Dentária,2016,13.0
+MG,Laboratório de Prótese Dentária,2017,34.0
+MG,Laboratório de Prótese Dentária,2018,22.0
+MG,Laboratório de Prótese Dentária,2019,28.0
+MG,Laboratório de Prótese Dentária,2020,23.0
+MG,Laboratório de Prótese Dentária,2021,36.0
+MG,Laboratório de Prótese Dentária,2022,37.0
+MG,Laboratório de Prótese Dentária,2023,50.0
+MG,Laboratório de Prótese Dentária,2024,46.0
+MG,Laboratório de Prótese Dentária,2025,29.0
+MG,Técnico em Prótese Dentária,2010,49.0
+MG,Técnico em Prótese Dentária,2011,73.0
+MG,Técnico em Prótese Dentária,2012,99.0
+MG,Técnico em Prótese Dentária,2013,105.0
+MG,Técnico em Prótese Dentária,2014,103.0
+MG,Técnico em Prótese Dentária,2015,101.0
+MG,Técnico em Prótese Dentária,2016,60.0
+MG,Técnico em Prótese Dentária,2017,81.0
+MG,Técnico em Prótese Dentária,2018,67.0
+MG,Técnico em Prótese Dentária,2019,90.0
+MG,Técnico em Prótese Dentária,2020,64.0
+MG,Técnico em Prótese Dentária,2021,79.0
+MG,Técnico em Prótese Dentária,2022,80.0
+MG,Técnico em Prótese Dentária,2023,119.0
+MG,Técnico em Prótese Dentária,2024,106.0
+MG,Técnico em Prótese Dentária,2025,108.0
+MG,Técnico em Saúde Bucal,2010,145.0
+MG,Técnico em Saúde Bucal,2011,330.0
+MG,Técnico em Saúde Bucal,2012,258.0
+MG,Técnico em Saúde Bucal,2013,392.0
+MG,Técnico em Saúde Bucal,2014,353.0
+MG,Técnico em Saúde Bucal,2015,297.0
+MG,Técnico em Saúde Bucal,2016,262.0
+MG,Técnico em Saúde Bucal,2017,288.0
+MG,Técnico em Saúde Bucal,2018,234.0
+MG,Técnico em Saúde Bucal,2019,332.0
+MG,Técnico em Saúde Bucal,2020,225.0
+MG,Técnico em Saúde Bucal,2021,420.0
+MG,Técnico em Saúde Bucal,2022,399.0
+MG,Técnico em Saúde Bucal,2023,485.0
+MG,Técnico em Saúde Bucal,2024,608.0
+MG,Técnico em Saúde Bucal,2025,538.0
+MS,Auxiliar de Prótese Dentária,2010,2.0
+MS,Auxiliar de Prótese Dentária,2011,15.0
+MS,Auxiliar de Prótese Dentária,2013,8.0
+MS,Auxiliar de Prótese Dentária,2014,17.0
+MS,Auxiliar de Prótese Dentária,2015,2.0
+MS,Auxiliar de Prótese Dentária,2016,6.0
+MS,Auxiliar de Prótese Dentária,2019,2.0
+MS,Auxiliar de Prótese Dentária,2020,1.0
+MS,Auxiliar de Prótese Dentária,2021,7.0
+MS,Auxiliar de Prótese Dentária,2022,1.0
+MS,Auxiliar de Prótese Dentária,2023,22.0
+MS,Auxiliar de Prótese Dentária,2024,15.0
+MS,Auxiliar de Prótese Dentária,2025,13.0
+MS,Auxiliar em Saúde Bucal,2010,90.0
+MS,Auxiliar em Saúde Bucal,2011,131.0
+MS,Auxiliar em Saúde Bucal,2012,122.0
+MS,Auxiliar em Saúde Bucal,2013,157.0
+MS,Auxiliar em Saúde Bucal,2014,156.0
+MS,Auxiliar em Saúde Bucal,2015,106.0
+MS,Auxiliar em Saúde Bucal,2016,175.0
+MS,Auxiliar em Saúde Bucal,2017,134.0
+MS,Auxiliar em Saúde Bucal,2018,205.0
+MS,Auxiliar em Saúde Bucal,2019,224.0
+MS,Auxiliar em Saúde Bucal,2020,212.0
+MS,Auxiliar em Saúde Bucal,2021,266.0
+MS,Auxiliar em Saúde Bucal,2022,299.0
+MS,Auxiliar em Saúde Bucal,2023,296.0
+MS,Auxiliar em Saúde Bucal,2024,274.0
+MS,Auxiliar em Saúde Bucal,2025,196.0
+MS,Cirurgião Dentista,2010,110.0
+MS,Cirurgião Dentista,2011,181.0
+MS,Cirurgião Dentista,2012,117.0
+MS,Cirurgião Dentista,2013,143.0
+MS,Cirurgião Dentista,2014,161.0
+MS,Cirurgião Dentista,2015,136.0
+MS,Cirurgião Dentista,2016,163.0
+MS,Cirurgião Dentista,2017,245.0
+MS,Cirurgião Dentista,2018,186.0
+MS,Cirurgião Dentista,2019,256.0
+MS,Cirurgião Dentista,2020,278.0
+MS,Cirurgião Dentista,2021,307.0
+MS,Cirurgião Dentista,2022,289.0
+MS,Cirurgião Dentista,2023,277.0
+MS,Cirurgião Dentista,2024,371.0
+MS,Cirurgião Dentista,2025,343.0
+MS,Laboratório de Prótese Dentária,2010,1.0
+MS,Laboratório de Prótese Dentária,2011,7.0
+MS,Laboratório de Prótese Dentária,2012,2.0
+MS,Laboratório de Prótese Dentária,2013,2.0
+MS,Laboratório de Prótese Dentária,2014,3.0
+MS,Laboratório de Prótese Dentária,2015,1.0
+MS,Laboratório de Prótese Dentária,2016,6.0
+MS,Laboratório de Prótese Dentária,2017,4.0
+MS,Laboratório de Prótese Dentária,2018,10.0
+MS,Laboratório de Prótese Dentária,2019,5.0
+MS,Laboratório de Prótese Dentária,2020,2.0
+MS,Laboratório de Prótese Dentária,2021,2.0
+MS,Laboratório de Prótese Dentária,2022,5.0
+MS,Laboratório de Prótese Dentária,2023,11.0
+MS,Laboratório de Prótese Dentária,2024,10.0
+MS,Laboratório de Prótese Dentária,2025,5.0
+MS,Técnico em Prótese Dentária,2010,16.0
+MS,Técnico em Prótese Dentária,2011,19.0
+MS,Técnico em Prótese Dentária,2012,20.0
+MS,Técnico em Prótese Dentária,2013,13.0
+MS,Técnico em Prótese Dentária,2014,13.0
+MS,Técnico em Prótese Dentária,2015,5.0
+MS,Técnico em Prótese Dentária,2016,11.0
+MS,Técnico em Prótese Dentária,2017,7.0
+MS,Técnico em Prótese Dentária,2018,9.0
+MS,Técnico em Prótese Dentária,2019,11.0
+MS,Técnico em Prótese Dentária,2020,14.0
+MS,Técnico em Prótese Dentária,2021,12.0
+MS,Técnico em Prótese Dentária,2022,15.0
+MS,Técnico em Prótese Dentária,2023,11.0
+MS,Técnico em Prótese Dentária,2024,17.0
+MS,Técnico em Prótese Dentária,2025,10.0
+MS,Técnico em Saúde Bucal,2010,33.0
+MS,Técnico em Saúde Bucal,2011,22.0
+MS,Técnico em Saúde Bucal,2012,12.0
+MS,Técnico em Saúde Bucal,2013,13.0
+MS,Técnico em Saúde Bucal,2014,8.0
+MS,Técnico em Saúde Bucal,2015,15.0
+MS,Técnico em Saúde Bucal,2016,29.0
+MS,Técnico em Saúde Bucal,2017,21.0
+MS,Técnico em Saúde Bucal,2018,12.0
+MS,Técnico em Saúde Bucal,2019,10.0
+MS,Técnico em Saúde Bucal,2020,15.0
+MS,Técnico em Saúde Bucal,2021,18.0
+MS,Técnico em Saúde Bucal,2022,20.0
+MS,Técnico em Saúde Bucal,2023,22.0
+MS,Técnico em Saúde Bucal,2024,37.0
+MS,Técnico em Saúde Bucal,2025,28.0
+MT,Auxiliar de Prótese Dentária,2010,2.0
+MT,Auxiliar de Prótese Dentária,2012,7.0
+MT,Auxiliar de Prótese Dentária,2014,1.0
+MT,Auxiliar de Prótese Dentária,2015,1.0
+MT,Auxiliar de Prótese Dentária,2016,2.0
+MT,Auxiliar de Prótese Dentária,2017,5.0
+MT,Auxiliar de Prótese Dentária,2018,1.0
+MT,Auxiliar de Prótese Dentária,2020,2.0
+MT,Auxiliar em Saúde Bucal,2010,67.0
+MT,Auxiliar em Saúde Bucal,2011,74.0
+MT,Auxiliar em Saúde Bucal,2012,134.0
+MT,Auxiliar em Saúde Bucal,2013,95.0
+MT,Auxiliar em Saúde Bucal,2014,101.0
+MT,Auxiliar em Saúde Bucal,2015,76.0
+MT,Auxiliar em Saúde Bucal,2016,105.0
+MT,Auxiliar em Saúde Bucal,2017,122.0
+MT,Auxiliar em Saúde Bucal,2018,133.0
+MT,Auxiliar em Saúde Bucal,2019,203.0
+MT,Auxiliar em Saúde Bucal,2020,139.0
+MT,Auxiliar em Saúde Bucal,2021,165.0
+MT,Auxiliar em Saúde Bucal,2022,205.0
+MT,Auxiliar em Saúde Bucal,2023,214.0
+MT,Auxiliar em Saúde Bucal,2024,233.0
+MT,Auxiliar em Saúde Bucal,2025,165.0
+MT,Cirurgião Dentista,2010,151.0
+MT,Cirurgião Dentista,2011,174.0
+MT,Cirurgião Dentista,2012,168.0
+MT,Cirurgião Dentista,2013,167.0
+MT,Cirurgião Dentista,2014,168.0
+MT,Cirurgião Dentista,2015,197.0
+MT,Cirurgião Dentista,2016,325.0
+MT,Cirurgião Dentista,2017,369.0
+MT,Cirurgião Dentista,2018,354.0
+MT,Cirurgião Dentista,2019,462.0
+MT,Cirurgião Dentista,2020,393.0
+MT,Cirurgião Dentista,2021,500.0
+MT,Cirurgião Dentista,2022,455.0
+MT,Cirurgião Dentista,2023,467.0
+MT,Cirurgião Dentista,2024,605.0
+MT,Cirurgião Dentista,2025,418.0
+MT,Laboratório de Prótese Dentária,2013,1.0
+MT,Laboratório de Prótese Dentária,2015,2.0
+MT,Laboratório de Prótese Dentária,2016,2.0
+MT,Laboratório de Prótese Dentária,2017,3.0
+MT,Laboratório de Prótese Dentária,2018,4.0
+MT,Laboratório de Prótese Dentária,2019,4.0
+MT,Laboratório de Prótese Dentária,2020,2.0
+MT,Laboratório de Prótese Dentária,2021,1.0
+MT,Laboratório de Prótese Dentária,2022,8.0
+MT,Laboratório de Prótese Dentária,2023,12.0
+MT,Laboratório de Prótese Dentária,2024,9.0
+MT,Laboratório de Prótese Dentária,2025,5.0
+MT,Técnico em Prótese Dentária,2010,8.0
+MT,Técnico em Prótese Dentária,2011,8.0
+MT,Técnico em Prótese Dentária,2012,18.0
+MT,Técnico em Prótese Dentária,2013,14.0
+MT,Técnico em Prótese Dentária,2014,9.0
+MT,Técnico em Prótese Dentária,2015,14.0
+MT,Técnico em Prótese Dentária,2016,12.0
+MT,Técnico em Prótese Dentária,2017,14.0
+MT,Técnico em Prótese Dentária,2018,14.0
+MT,Técnico em Prótese Dentária,2019,16.0
+MT,Técnico em Prótese Dentária,2020,8.0
+MT,Técnico em Prótese Dentária,2021,11.0
+MT,Técnico em Prótese Dentária,2022,15.0
+MT,Técnico em Prótese Dentária,2023,18.0
+MT,Técnico em Prótese Dentária,2024,16.0
+MT,Técnico em Prótese Dentária,2025,17.0
+MT,Técnico em Saúde Bucal,2010,14.0
+MT,Técnico em Saúde Bucal,2011,15.0
+MT,Técnico em Saúde Bucal,2012,30.0
+MT,Técnico em Saúde Bucal,2013,36.0
+MT,Técnico em Saúde Bucal,2014,36.0
+MT,Técnico em Saúde Bucal,2015,34.0
+MT,Técnico em Saúde Bucal,2016,43.0
+MT,Técnico em Saúde Bucal,2017,30.0
+MT,Técnico em Saúde Bucal,2018,26.0
+MT,Técnico em Saúde Bucal,2019,27.0
+MT,Técnico em Saúde Bucal,2020,33.0
+MT,Técnico em Saúde Bucal,2021,53.0
+MT,Técnico em Saúde Bucal,2022,59.0
+MT,Técnico em Saúde Bucal,2023,66.0
+MT,Técnico em Saúde Bucal,2024,76.0
+MT,Técnico em Saúde Bucal,2025,41.0
+PA,Auxiliar de Prótese Dentária,2010,3.0
+PA,Auxiliar de Prótese Dentária,2011,5.0
+PA,Auxiliar de Prótese Dentária,2012,10.0
+PA,Auxiliar de Prótese Dentária,2013,5.0
+PA,Auxiliar de Prótese Dentária,2014,6.0
+PA,Auxiliar de Prótese Dentária,2015,7.0
+PA,Auxiliar de Prótese Dentária,2016,2.0
+PA,Auxiliar de Prótese Dentária,2017,6.0
+PA,Auxiliar de Prótese Dentária,2018,8.0
+PA,Auxiliar de Prótese Dentária,2019,39.0
+PA,Auxiliar de Prótese Dentária,2020,12.0
+PA,Auxiliar de Prótese Dentária,2021,23.0
+PA,Auxiliar de Prótese Dentária,2022,8.0
+PA,Auxiliar de Prótese Dentária,2023,18.0
+PA,Auxiliar de Prótese Dentária,2024,6.0
+PA,Auxiliar de Prótese Dentária,2025,2.0
+PA,Auxiliar em Saúde Bucal,2010,74.0
+PA,Auxiliar em Saúde Bucal,2011,67.0
+PA,Auxiliar em Saúde Bucal,2012,101.0
+PA,Auxiliar em Saúde Bucal,2013,120.0
+PA,Auxiliar em Saúde Bucal,2014,113.0
+PA,Auxiliar em Saúde Bucal,2015,114.0
+PA,Auxiliar em Saúde Bucal,2016,152.0
+PA,Auxiliar em Saúde Bucal,2017,193.0
+PA,Auxiliar em Saúde Bucal,2018,180.0
+PA,Auxiliar em Saúde Bucal,2019,228.0
+PA,Auxiliar em Saúde Bucal,2020,128.0
+PA,Auxiliar em Saúde Bucal,2021,315.0
+PA,Auxiliar em Saúde Bucal,2022,275.0
+PA,Auxiliar em Saúde Bucal,2023,293.0
+PA,Auxiliar em Saúde Bucal,2024,301.0
+PA,Auxiliar em Saúde Bucal,2025,246.0
+PA,Cirurgião Dentista,2010,216.0
+PA,Cirurgião Dentista,2011,202.0
+PA,Cirurgião Dentista,2012,226.0
+PA,Cirurgião Dentista,2013,256.0
+PA,Cirurgião Dentista,2014,279.0
+PA,Cirurgião Dentista,2015,263.0
+PA,Cirurgião Dentista,2016,290.0
+PA,Cirurgião Dentista,2017,369.0
+PA,Cirurgião Dentista,2018,405.0
+PA,Cirurgião Dentista,2019,527.0
+PA,Cirurgião Dentista,2020,500.0
+PA,Cirurgião Dentista,2021,474.0
+PA,Cirurgião Dentista,2022,632.0
+PA,Cirurgião Dentista,2023,604.0
+PA,Cirurgião Dentista,2024,815.0
+PA,Cirurgião Dentista,2025,739.0
+PA,Laboratório de Prótese Dentária,2013,1.0
+PA,Laboratório de Prótese Dentária,2015,1.0
+PA,Laboratório de Prótese Dentária,2017,3.0
+PA,Laboratório de Prótese Dentária,2018,2.0
+PA,Laboratório de Prótese Dentária,2019,6.0
+PA,Laboratório de Prótese Dentária,2020,3.0
+PA,Laboratório de Prótese Dentária,2021,5.0
+PA,Laboratório de Prótese Dentária,2022,10.0
+PA,Laboratório de Prótese Dentária,2023,2.0
+PA,Laboratório de Prótese Dentária,2024,2.0
+PA,Laboratório de Prótese Dentária,2025,3.0
+PA,Técnico em Prótese Dentária,2010,4.0
+PA,Técnico em Prótese Dentária,2011,8.0
+PA,Técnico em Prótese Dentária,2012,10.0
+PA,Técnico em Prótese Dentária,2013,13.0
+PA,Técnico em Prótese Dentária,2014,14.0
+PA,Técnico em Prótese Dentária,2015,11.0
+PA,Técnico em Prótese Dentária,2016,14.0
+PA,Técnico em Prótese Dentária,2017,30.0
+PA,Técnico em Prótese Dentária,2018,19.0
+PA,Técnico em Prótese Dentária,2019,26.0
+PA,Técnico em Prótese Dentária,2020,30.0
+PA,Técnico em Prótese Dentária,2021,34.0
+PA,Técnico em Prótese Dentária,2022,35.0
+PA,Técnico em Prótese Dentária,2023,31.0
+PA,Técnico em Prótese Dentária,2024,36.0
+PA,Técnico em Prótese Dentária,2025,31.0
+PA,Técnico em Saúde Bucal,2010,24.0
+PA,Técnico em Saúde Bucal,2011,33.0
+PA,Técnico em Saúde Bucal,2012,100.0
+PA,Técnico em Saúde Bucal,2013,61.0
+PA,Técnico em Saúde Bucal,2014,55.0
+PA,Técnico em Saúde Bucal,2015,45.0
+PA,Técnico em Saúde Bucal,2016,92.0
+PA,Técnico em Saúde Bucal,2017,80.0
+PA,Técnico em Saúde Bucal,2018,76.0
+PA,Técnico em Saúde Bucal,2019,123.0
+PA,Técnico em Saúde Bucal,2020,88.0
+PA,Técnico em Saúde Bucal,2021,155.0
+PA,Técnico em Saúde Bucal,2022,161.0
+PA,Técnico em Saúde Bucal,2023,149.0
+PA,Técnico em Saúde Bucal,2024,210.0
+PA,Técnico em Saúde Bucal,2025,148.0
+PB,Auxiliar de Prótese Dentária,2010,2.0
+PB,Auxiliar de Prótese Dentária,2011,5.0
+PB,Auxiliar de Prótese Dentária,2012,3.0
+PB,Auxiliar de Prótese Dentária,2013,1.0
+PB,Auxiliar de Prótese Dentária,2014,6.0
+PB,Auxiliar de Prótese Dentária,2015,6.0
+PB,Auxiliar de Prótese Dentária,2016,14.0
+PB,Auxiliar de Prótese Dentária,2017,9.0
+PB,Auxiliar de Prótese Dentária,2019,12.0
+PB,Auxiliar de Prótese Dentária,2020,4.0
+PB,Auxiliar de Prótese Dentária,2021,2.0
+PB,Auxiliar de Prótese Dentária,2022,6.0
+PB,Auxiliar de Prótese Dentária,2023,3.0
+PB,Auxiliar de Prótese Dentária,2024,19.0
+PB,Auxiliar de Prótese Dentária,2025,12.0
+PB,Auxiliar em Saúde Bucal,2010,166.0
+PB,Auxiliar em Saúde Bucal,2011,190.0
+PB,Auxiliar em Saúde Bucal,2012,146.0
+PB,Auxiliar em Saúde Bucal,2013,213.0
+PB,Auxiliar em Saúde Bucal,2014,162.0
+PB,Auxiliar em Saúde Bucal,2015,118.0
+PB,Auxiliar em Saúde Bucal,2016,119.0
+PB,Auxiliar em Saúde Bucal,2017,126.0
+PB,Auxiliar em Saúde Bucal,2018,108.0
+PB,Auxiliar em Saúde Bucal,2019,101.0
+PB,Auxiliar em Saúde Bucal,2020,78.0
+PB,Auxiliar em Saúde Bucal,2021,126.0
+PB,Auxiliar em Saúde Bucal,2022,107.0
+PB,Auxiliar em Saúde Bucal,2023,87.0
+PB,Auxiliar em Saúde Bucal,2024,128.0
+PB,Auxiliar em Saúde Bucal,2025,87.0
+PB,Cirurgião Dentista,2010,128.0
+PB,Cirurgião Dentista,2011,96.0
+PB,Cirurgião Dentista,2012,141.0
+PB,Cirurgião Dentista,2013,181.0
+PB,Cirurgião Dentista,2014,228.0
+PB,Cirurgião Dentista,2015,231.0
+PB,Cirurgião Dentista,2016,291.0
+PB,Cirurgião Dentista,2017,328.0
+PB,Cirurgião Dentista,2018,351.0
+PB,Cirurgião Dentista,2019,415.0
+PB,Cirurgião Dentista,2020,411.0
+PB,Cirurgião Dentista,2021,566.0
+PB,Cirurgião Dentista,2022,579.0
+PB,Cirurgião Dentista,2023,560.0
+PB,Cirurgião Dentista,2024,861.0
+PB,Cirurgião Dentista,2025,652.0
+PB,Laboratório de Prótese Dentária,2014,2.0
+PB,Laboratório de Prótese Dentária,2015,1.0
+PB,Laboratório de Prótese Dentária,2016,2.0
+PB,Laboratório de Prótese Dentária,2017,4.0
+PB,Laboratório de Prótese Dentária,2018,1.0
+PB,Laboratório de Prótese Dentária,2019,8.0
+PB,Laboratório de Prótese Dentária,2020,2.0
+PB,Laboratório de Prótese Dentária,2021,11.0
+PB,Laboratório de Prótese Dentária,2022,2.0
+PB,Laboratório de Prótese Dentária,2023,2.0
+PB,Laboratório de Prótese Dentária,2024,10.0
+PB,Laboratório de Prótese Dentária,2025,7.0
+PB,Técnico em Prótese Dentária,2010,24.0
+PB,Técnico em Prótese Dentária,2011,10.0
+PB,Técnico em Prótese Dentária,2012,18.0
+PB,Técnico em Prótese Dentária,2013,9.0
+PB,Técnico em Prótese Dentária,2014,15.0
+PB,Técnico em Prótese Dentária,2015,18.0
+PB,Técnico em Prótese Dentária,2016,29.0
+PB,Técnico em Prótese Dentária,2017,23.0
+PB,Técnico em Prótese Dentária,2018,12.0
+PB,Técnico em Prótese Dentária,2019,18.0
+PB,Técnico em Prótese Dentária,2020,10.0
+PB,Técnico em Prótese Dentária,2021,17.0
+PB,Técnico em Prótese Dentária,2022,11.0
+PB,Técnico em Prótese Dentária,2023,15.0
+PB,Técnico em Prótese Dentária,2024,24.0
+PB,Técnico em Prótese Dentária,2025,26.0
+PB,Técnico em Saúde Bucal,2010,25.0
+PB,Técnico em Saúde Bucal,2011,24.0
+PB,Técnico em Saúde Bucal,2012,36.0
+PB,Técnico em Saúde Bucal,2013,69.0
+PB,Técnico em Saúde Bucal,2014,93.0
+PB,Técnico em Saúde Bucal,2015,76.0
+PB,Técnico em Saúde Bucal,2016,91.0
+PB,Técnico em Saúde Bucal,2017,161.0
+PB,Técnico em Saúde Bucal,2018,102.0
+PB,Técnico em Saúde Bucal,2019,125.0
+PB,Técnico em Saúde Bucal,2020,158.0
+PB,Técnico em Saúde Bucal,2021,216.0
+PB,Técnico em Saúde Bucal,2022,148.0
+PB,Técnico em Saúde Bucal,2023,163.0
+PB,Técnico em Saúde Bucal,2024,256.0
+PB,Técnico em Saúde Bucal,2025,184.0
+PE,Auxiliar de Prótese Dentária,2010,9.0
+PE,Auxiliar de Prótese Dentária,2011,5.0
+PE,Auxiliar de Prótese Dentária,2012,4.0
+PE,Auxiliar de Prótese Dentária,2013,4.0
+PE,Auxiliar de Prótese Dentária,2014,17.0
+PE,Auxiliar de Prótese Dentária,2015,4.0
+PE,Auxiliar de Prótese Dentária,2016,4.0
+PE,Auxiliar de Prótese Dentária,2017,2.0
+PE,Auxiliar de Prótese Dentária,2018,4.0
+PE,Auxiliar de Prótese Dentária,2019,12.0
+PE,Auxiliar de Prótese Dentária,2020,5.0
+PE,Auxiliar de Prótese Dentária,2021,14.0
+PE,Auxiliar de Prótese Dentária,2022,18.0
+PE,Auxiliar de Prótese Dentária,2023,33.0
+PE,Auxiliar de Prótese Dentária,2024,38.0
+PE,Auxiliar de Prótese Dentária,2025,6.0
+PE,Auxiliar em Saúde Bucal,2010,434.0
+PE,Auxiliar em Saúde Bucal,2011,432.0
+PE,Auxiliar em Saúde Bucal,2012,493.0
+PE,Auxiliar em Saúde Bucal,2013,634.0
+PE,Auxiliar em Saúde Bucal,2014,495.0
+PE,Auxiliar em Saúde Bucal,2015,480.0
+PE,Auxiliar em Saúde Bucal,2016,476.0
+PE,Auxiliar em Saúde Bucal,2017,674.0
+PE,Auxiliar em Saúde Bucal,2018,510.0
+PE,Auxiliar em Saúde Bucal,2019,535.0
+PE,Auxiliar em Saúde Bucal,2020,519.0
+PE,Auxiliar em Saúde Bucal,2021,749.0
+PE,Auxiliar em Saúde Bucal,2022,739.0
+PE,Auxiliar em Saúde Bucal,2023,861.0
+PE,Auxiliar em Saúde Bucal,2024,1.055
+PE,Auxiliar em Saúde Bucal,2025,707.0
+PE,Cirurgião Dentista,2010,243.0
+PE,Cirurgião Dentista,2011,250.0
+PE,Cirurgião Dentista,2012,218.0
+PE,Cirurgião Dentista,2013,284.0
+PE,Cirurgião Dentista,2014,270.0
+PE,Cirurgião Dentista,2015,326.0
+PE,Cirurgião Dentista,2016,426.0
+PE,Cirurgião Dentista,2017,616.0
+PE,Cirurgião Dentista,2018,709.0
+PE,Cirurgião Dentista,2019,655.0
+PE,Cirurgião Dentista,2020,729.0
+PE,Cirurgião Dentista,2021,896.0
+PE,Cirurgião Dentista,2022,1.051
+PE,Cirurgião Dentista,2023,1.068
+PE,Cirurgião Dentista,2024,1.399
+PE,Cirurgião Dentista,2025,1.128
+PE,Laboratório de Prótese Dentária,2011,1.0
+PE,Laboratório de Prótese Dentária,2012,2.0
+PE,Laboratório de Prótese Dentária,2013,1.0
+PE,Laboratório de Prótese Dentária,2014,3.0
+PE,Laboratório de Prótese Dentária,2015,4.0
+PE,Laboratório de Prótese Dentária,2016,1.0
+PE,Laboratório de Prótese Dentária,2017,4.0
+PE,Laboratório de Prótese Dentária,2018,4.0
+PE,Laboratório de Prótese Dentária,2019,11.0
+PE,Laboratório de Prótese Dentária,2020,4.0
+PE,Laboratório de Prótese Dentária,2021,7.0
+PE,Laboratório de Prótese Dentária,2022,8.0
+PE,Laboratório de Prótese Dentária,2023,5.0
+PE,Laboratório de Prótese Dentária,2024,25.0
+PE,Laboratório de Prótese Dentária,2025,13.0
+PE,Técnico em Prótese Dentária,2010,21.0
+PE,Técnico em Prótese Dentária,2011,22.0
+PE,Técnico em Prótese Dentária,2012,39.0
+PE,Técnico em Prótese Dentária,2013,28.0
+PE,Técnico em Prótese Dentária,2014,38.0
+PE,Técnico em Prótese Dentária,2015,31.0
+PE,Técnico em Prótese Dentária,2016,25.0
+PE,Técnico em Prótese Dentária,2017,25.0
+PE,Técnico em Prótese Dentária,2018,22.0
+PE,Técnico em Prótese Dentária,2019,38.0
+PE,Técnico em Prótese Dentária,2020,32.0
+PE,Técnico em Prótese Dentária,2021,55.0
+PE,Técnico em Prótese Dentária,2022,44.0
+PE,Técnico em Prótese Dentária,2023,34.0
+PE,Técnico em Prótese Dentária,2024,82.0
+PE,Técnico em Prótese Dentária,2025,56.0
+PE,Técnico em Saúde Bucal,2010,22.0
+PE,Técnico em Saúde Bucal,2011,28.0
+PE,Técnico em Saúde Bucal,2012,28.0
+PE,Técnico em Saúde Bucal,2013,57.0
+PE,Técnico em Saúde Bucal,2014,45.0
+PE,Técnico em Saúde Bucal,2015,37.0
+PE,Técnico em Saúde Bucal,2016,34.0
+PE,Técnico em Saúde Bucal,2017,56.0
+PE,Técnico em Saúde Bucal,2018,56.0
+PE,Técnico em Saúde Bucal,2019,63.0
+PE,Técnico em Saúde Bucal,2020,73.0
+PE,Técnico em Saúde Bucal,2021,85.0
+PE,Técnico em Saúde Bucal,2022,107.0
+PE,Técnico em Saúde Bucal,2023,88.0
+PE,Técnico em Saúde Bucal,2024,110.0
+PE,Técnico em Saúde Bucal,2025,88.0
+PI,Auxiliar de Prótese Dentária,2010,4.0
+PI,Auxiliar de Prótese Dentária,2012,4.0
+PI,Auxiliar de Prótese Dentária,2013,6.0
+PI,Auxiliar de Prótese Dentária,2014,2.0
+PI,Auxiliar de Prótese Dentária,2015,1.0
+PI,Auxiliar de Prótese Dentária,2016,6.0
+PI,Auxiliar de Prótese Dentária,2017,9.0
+PI,Auxiliar de Prótese Dentária,2018,1.0
+PI,Auxiliar de Prótese Dentária,2019,5.0
+PI,Auxiliar de Prótese Dentária,2020,3.0
+PI,Auxiliar de Prótese Dentária,2021,15.0
+PI,Auxiliar de Prótese Dentária,2022,4.0
+PI,Auxiliar de Prótese Dentária,2023,1.0
+PI,Auxiliar em Saúde Bucal,2010,58.0
+PI,Auxiliar em Saúde Bucal,2011,63.0
+PI,Auxiliar em Saúde Bucal,2012,58.0
+PI,Auxiliar em Saúde Bucal,2013,61.0
+PI,Auxiliar em Saúde Bucal,2014,59.0
+PI,Auxiliar em Saúde Bucal,2015,48.0
+PI,Auxiliar em Saúde Bucal,2016,35.0
+PI,Auxiliar em Saúde Bucal,2017,98.0
+PI,Auxiliar em Saúde Bucal,2018,69.0
+PI,Auxiliar em Saúde Bucal,2019,84.0
+PI,Auxiliar em Saúde Bucal,2020,47.0
+PI,Auxiliar em Saúde Bucal,2021,95.0
+PI,Auxiliar em Saúde Bucal,2022,77.0
+PI,Auxiliar em Saúde Bucal,2023,112.0
+PI,Auxiliar em Saúde Bucal,2024,105.0
+PI,Auxiliar em Saúde Bucal,2025,99.0
+PI,Cirurgião Dentista,2010,110.0
+PI,Cirurgião Dentista,2011,142.0
+PI,Cirurgião Dentista,2012,130.0
+PI,Cirurgião Dentista,2013,143.0
+PI,Cirurgião Dentista,2014,149.0
+PI,Cirurgião Dentista,2015,183.0
+PI,Cirurgião Dentista,2016,161.0
+PI,Cirurgião Dentista,2017,215.0
+PI,Cirurgião Dentista,2018,219.0
+PI,Cirurgião Dentista,2019,246.0
+PI,Cirurgião Dentista,2020,225.0
+PI,Cirurgião Dentista,2021,341.0
+PI,Cirurgião Dentista,2022,311.0
+PI,Cirurgião Dentista,2023,334.0
+PI,Cirurgião Dentista,2024,472.0
+PI,Cirurgião Dentista,2025,442.0
+PI,Laboratório de Prótese Dentária,2011,1.0
+PI,Laboratório de Prótese Dentária,2012,2.0
+PI,Laboratório de Prótese Dentária,2013,4.0
+PI,Laboratório de Prótese Dentária,2014,3.0
+PI,Laboratório de Prótese Dentária,2015,2.0
+PI,Laboratório de Prótese Dentária,2016,4.0
+PI,Laboratório de Prótese Dentária,2017,4.0
+PI,Laboratório de Prótese Dentária,2018,4.0
+PI,Laboratório de Prótese Dentária,2019,8.0
+PI,Laboratório de Prótese Dentária,2020,1.0
+PI,Laboratório de Prótese Dentária,2021,9.0
+PI,Laboratório de Prótese Dentária,2022,3.0
+PI,Laboratório de Prótese Dentária,2023,3.0
+PI,Laboratório de Prótese Dentária,2024,8.0
+PI,Laboratório de Prótese Dentária,2025,6.0
+PI,Técnico em Prótese Dentária,2010,8.0
+PI,Técnico em Prótese Dentária,2011,7.0
+PI,Técnico em Prótese Dentária,2012,10.0
+PI,Técnico em Prótese Dentária,2013,5.0
+PI,Técnico em Prótese Dentária,2014,12.0
+PI,Técnico em Prótese Dentária,2015,9.0
+PI,Técnico em Prótese Dentária,2016,22.0
+PI,Técnico em Prótese Dentária,2017,17.0
+PI,Técnico em Prótese Dentária,2018,12.0
+PI,Técnico em Prótese Dentária,2019,11.0
+PI,Técnico em Prótese Dentária,2020,14.0
+PI,Técnico em Prótese Dentária,2021,28.0
+PI,Técnico em Prótese Dentária,2022,9.0
+PI,Técnico em Prótese Dentária,2023,18.0
+PI,Técnico em Prótese Dentária,2024,13.0
+PI,Técnico em Prótese Dentária,2025,16.0
+PI,Técnico em Saúde Bucal,2010,38.0
+PI,Técnico em Saúde Bucal,2011,67.0
+PI,Técnico em Saúde Bucal,2012,75.0
+PI,Técnico em Saúde Bucal,2013,93.0
+PI,Técnico em Saúde Bucal,2014,68.0
+PI,Técnico em Saúde Bucal,2015,78.0
+PI,Técnico em Saúde Bucal,2016,83.0
+PI,Técnico em Saúde Bucal,2017,154.0
+PI,Técnico em Saúde Bucal,2018,146.0
+PI,Técnico em Saúde Bucal,2019,148.0
+PI,Técnico em Saúde Bucal,2020,78.0
+PI,Técnico em Saúde Bucal,2021,164.0
+PI,Técnico em Saúde Bucal,2022,158.0
+PI,Técnico em Saúde Bucal,2023,140.0
+PI,Técnico em Saúde Bucal,2024,165.0
+PI,Técnico em Saúde Bucal,2025,167.0
+PR,Auxiliar de Prótese Dentária,2010,7.0
+PR,Auxiliar de Prótese Dentária,2011,5.0
+PR,Auxiliar de Prótese Dentária,2012,11.0
+PR,Auxiliar de Prótese Dentária,2013,6.0
+PR,Auxiliar de Prótese Dentária,2014,16.0
+PR,Auxiliar de Prótese Dentária,2015,17.0
+PR,Auxiliar de Prótese Dentária,2016,7.0
+PR,Auxiliar de Prótese Dentária,2017,14.0
+PR,Auxiliar de Prótese Dentária,2018,23.0
+PR,Auxiliar de Prótese Dentária,2019,11.0
+PR,Auxiliar de Prótese Dentária,2020,2.0
+PR,Auxiliar de Prótese Dentária,2021,6.0
+PR,Auxiliar de Prótese Dentária,2022,9.0
+PR,Auxiliar de Prótese Dentária,2023,12.0
+PR,Auxiliar de Prótese Dentária,2024,34.0
+PR,Auxiliar de Prótese Dentária,2025,33.0
+PR,Auxiliar em Saúde Bucal,2010,346.0
+PR,Auxiliar em Saúde Bucal,2011,378.0
+PR,Auxiliar em Saúde Bucal,2012,353.0
+PR,Auxiliar em Saúde Bucal,2013,323.0
+PR,Auxiliar em Saúde Bucal,2014,379.0
+PR,Auxiliar em Saúde Bucal,2015,358.0
+PR,Auxiliar em Saúde Bucal,2016,292.0
+PR,Auxiliar em Saúde Bucal,2017,321.0
+PR,Auxiliar em Saúde Bucal,2018,360.0
+PR,Auxiliar em Saúde Bucal,2019,350.0
+PR,Auxiliar em Saúde Bucal,2020,194.0
+PR,Auxiliar em Saúde Bucal,2021,447.0
+PR,Auxiliar em Saúde Bucal,2022,443.0
+PR,Auxiliar em Saúde Bucal,2023,442.0
+PR,Auxiliar em Saúde Bucal,2024,473.0
+PR,Auxiliar em Saúde Bucal,2025,364.0
+PR,Cirurgião Dentista,2010,583.0
+PR,Cirurgião Dentista,2011,590.0
+PR,Cirurgião Dentista,2012,624.0
+PR,Cirurgião Dentista,2013,596.0
+PR,Cirurgião Dentista,2014,636.0
+PR,Cirurgião Dentista,2015,673.0
+PR,Cirurgião Dentista,2016,804.0
+PR,Cirurgião Dentista,2017,924.0
+PR,Cirurgião Dentista,2018,1.152
+PR,Cirurgião Dentista,2019,1.242
+PR,Cirurgião Dentista,2020,1.088
+PR,Cirurgião Dentista,2021,1.077
+PR,Cirurgião Dentista,2022,1.278
+PR,Cirurgião Dentista,2023,1.445
+PR,Cirurgião Dentista,2024,1.562
+PR,Cirurgião Dentista,2025,1.097
+PR,Laboratório de Prótese Dentária,2010,9.0
+PR,Laboratório de Prótese Dentária,2011,9.0
+PR,Laboratório de Prótese Dentária,2012,17.0
+PR,Laboratório de Prótese Dentária,2013,21.0
+PR,Laboratório de Prótese Dentária,2014,11.0
+PR,Laboratório de Prótese Dentária,2015,18.0
+PR,Laboratório de Prótese Dentária,2016,18.0
+PR,Laboratório de Prótese Dentária,2017,21.0
+PR,Laboratório de Prótese Dentária,2018,20.0
+PR,Laboratório de Prótese Dentária,2019,21.0
+PR,Laboratório de Prótese Dentária,2020,10.0
+PR,Laboratório de Prótese Dentária,2021,15.0
+PR,Laboratório de Prótese Dentária,2022,19.0
+PR,Laboratório de Prótese Dentária,2023,21.0
+PR,Laboratório de Prótese Dentária,2024,30.0
+PR,Laboratório de Prótese Dentária,2025,21.0
+PR,Técnico em Prótese Dentária,2010,43.0
+PR,Técnico em Prótese Dentária,2011,40.0
+PR,Técnico em Prótese Dentária,2012,43.0
+PR,Técnico em Prótese Dentária,2013,58.0
+PR,Técnico em Prótese Dentária,2014,45.0
+PR,Técnico em Prótese Dentária,2015,61.0
+PR,Técnico em Prótese Dentária,2016,52.0
+PR,Técnico em Prótese Dentária,2017,64.0
+PR,Técnico em Prótese Dentária,2018,49.0
+PR,Técnico em Prótese Dentária,2019,61.0
+PR,Técnico em Prótese Dentária,2020,37.0
+PR,Técnico em Prótese Dentária,2021,60.0
+PR,Técnico em Prótese Dentária,2022,67.0
+PR,Técnico em Prótese Dentária,2023,58.0
+PR,Técnico em Prótese Dentária,2024,84.0
+PR,Técnico em Prótese Dentária,2025,55.0
+PR,Técnico em Saúde Bucal,2010,66.0
+PR,Técnico em Saúde Bucal,2011,77.0
+PR,Técnico em Saúde Bucal,2012,136.0
+PR,Técnico em Saúde Bucal,2013,136.0
+PR,Técnico em Saúde Bucal,2014,92.0
+PR,Técnico em Saúde Bucal,2015,107.0
+PR,Técnico em Saúde Bucal,2016,116.0
+PR,Técnico em Saúde Bucal,2017,120.0
+PR,Técnico em Saúde Bucal,2018,102.0
+PR,Técnico em Saúde Bucal,2019,127.0
+PR,Técnico em Saúde Bucal,2020,51.0
+PR,Técnico em Saúde Bucal,2021,127.0
+PR,Técnico em Saúde Bucal,2022,156.0
+PR,Técnico em Saúde Bucal,2023,123.0
+PR,Técnico em Saúde Bucal,2024,214.0
+PR,Técnico em Saúde Bucal,2025,137.0
+RJ,Auxiliar de Prótese Dentária,2010,58.0
+RJ,Auxiliar de Prótese Dentária,2011,55.0
+RJ,Auxiliar de Prótese Dentária,2012,69.0
+RJ,Auxiliar de Prótese Dentária,2013,44.0
+RJ,Auxiliar de Prótese Dentária,2014,56.0
+RJ,Auxiliar de Prótese Dentária,2015,72.0
+RJ,Auxiliar de Prótese Dentária,2016,43.0
+RJ,Auxiliar de Prótese Dentária,2017,56.0
+RJ,Auxiliar de Prótese Dentária,2018,34.0
+RJ,Auxiliar de Prótese Dentária,2019,55.0
+RJ,Auxiliar de Prótese Dentária,2020,26.0
+RJ,Auxiliar de Prótese Dentária,2021,31.0
+RJ,Auxiliar de Prótese Dentária,2022,44.0
+RJ,Auxiliar de Prótese Dentária,2023,64.0
+RJ,Auxiliar de Prótese Dentária,2024,56.0
+RJ,Auxiliar de Prótese Dentária,2025,37.0
+RJ,Auxiliar em Saúde Bucal,2010,934.0
+RJ,Auxiliar em Saúde Bucal,2011,1.002
+RJ,Auxiliar em Saúde Bucal,2012,883.0
+RJ,Auxiliar em Saúde Bucal,2013,1.205
+RJ,Auxiliar em Saúde Bucal,2014,1.008
+RJ,Auxiliar em Saúde Bucal,2015,1.115
+RJ,Auxiliar em Saúde Bucal,2016,1.021
+RJ,Auxiliar em Saúde Bucal,2017,1.262
+RJ,Auxiliar em Saúde Bucal,2018,1.266
+RJ,Auxiliar em Saúde Bucal,2019,1.232
+RJ,Auxiliar em Saúde Bucal,2020,814.0
+RJ,Auxiliar em Saúde Bucal,2021,1.088
+RJ,Auxiliar em Saúde Bucal,2022,1.355
+RJ,Auxiliar em Saúde Bucal,2023,1.194
+RJ,Auxiliar em Saúde Bucal,2024,1.053
+RJ,Auxiliar em Saúde Bucal,2025,712.0
+RJ,Cirurgião Dentista,2010,835.0
+RJ,Cirurgião Dentista,2011,767.0
+RJ,Cirurgião Dentista,2012,772.0
+RJ,Cirurgião Dentista,2013,848.0
+RJ,Cirurgião Dentista,2014,765.0
+RJ,Cirurgião Dentista,2015,859.0
+RJ,Cirurgião Dentista,2016,905.0
+RJ,Cirurgião Dentista,2017,962.0
+RJ,Cirurgião Dentista,2018,1.087
+RJ,Cirurgião Dentista,2019,1.395
+RJ,Cirurgião Dentista,2020,1.575
+RJ,Cirurgião Dentista,2021,1.489
+RJ,Cirurgião Dentista,2022,1.614
+RJ,Cirurgião Dentista,2023,1.549
+RJ,Cirurgião Dentista,2024,1.904
+RJ,Cirurgião Dentista,2025,1.322
+RJ,Laboratório de Prótese Dentária,2010,2.0
+RJ,Laboratório de Prótese Dentária,2011,4.0
+RJ,Laboratório de Prótese Dentária,2012,2.0
+RJ,Laboratório de Prótese Dentária,2013,7.0
+RJ,Laboratório de Prótese Dentária,2014,6.0
+RJ,Laboratório de Prótese Dentária,2015,3.0
+RJ,Laboratório de Prótese Dentária,2016,2.0
+RJ,Laboratório de Prótese Dentária,2017,7.0
+RJ,Laboratório de Prótese Dentária,2018,4.0
+RJ,Laboratório de Prótese Dentária,2019,12.0
+RJ,Laboratório de Prótese Dentária,2020,6.0
+RJ,Laboratório de Prótese Dentária,2021,3.0
+RJ,Laboratório de Prótese Dentária,2022,8.0
+RJ,Laboratório de Prótese Dentária,2023,7.0
+RJ,Laboratório de Prótese Dentária,2024,15.0
+RJ,Laboratório de Prótese Dentária,2025,12.0
+RJ,Técnico em Prótese Dentária,2010,62.0
+RJ,Técnico em Prótese Dentária,2011,60.0
+RJ,Técnico em Prótese Dentária,2012,62.0
+RJ,Técnico em Prótese Dentária,2013,71.0
+RJ,Técnico em Prótese Dentária,2014,65.0
+RJ,Técnico em Prótese Dentária,2015,60.0
+RJ,Técnico em Prótese Dentária,2016,54.0
+RJ,Técnico em Prótese Dentária,2017,67.0
+RJ,Técnico em Prótese Dentária,2018,64.0
+RJ,Técnico em Prótese Dentária,2019,67.0
+RJ,Técnico em Prótese Dentária,2020,57.0
+RJ,Técnico em Prótese Dentária,2021,91.0
+RJ,Técnico em Prótese Dentária,2022,98.0
+RJ,Técnico em Prótese Dentária,2023,72.0
+RJ,Técnico em Prótese Dentária,2024,91.0
+RJ,Técnico em Prótese Dentária,2025,76.0
+RJ,Técnico em Saúde Bucal,2010,92.0
+RJ,Técnico em Saúde Bucal,2011,157.0
+RJ,Técnico em Saúde Bucal,2012,121.0
+RJ,Técnico em Saúde Bucal,2013,200.0
+RJ,Técnico em Saúde Bucal,2014,246.0
+RJ,Técnico em Saúde Bucal,2015,146.0
+RJ,Técnico em Saúde Bucal,2016,201.0
+RJ,Técnico em Saúde Bucal,2017,206.0
+RJ,Técnico em Saúde Bucal,2018,176.0
+RJ,Técnico em Saúde Bucal,2019,224.0
+RJ,Técnico em Saúde Bucal,2020,190.0
+RJ,Técnico em Saúde Bucal,2021,254.0
+RJ,Técnico em Saúde Bucal,2022,343.0
+RJ,Técnico em Saúde Bucal,2023,365.0
+RJ,Técnico em Saúde Bucal,2024,392.0
+RJ,Técnico em Saúde Bucal,2025,257.0
+RN,Auxiliar de Prótese Dentária,2011,3.0
+RN,Auxiliar de Prótese Dentária,2012,2.0
+RN,Auxiliar de Prótese Dentária,2013,2.0
+RN,Auxiliar de Prótese Dentária,2015,2.0
+RN,Auxiliar de Prótese Dentária,2016,6.0
+RN,Auxiliar de Prótese Dentária,2017,4.0
+RN,Auxiliar de Prótese Dentária,2018,6.0
+RN,Auxiliar de Prótese Dentária,2019,5.0
+RN,Auxiliar de Prótese Dentária,2020,1.0
+RN,Auxiliar de Prótese Dentária,2021,12.0
+RN,Auxiliar de Prótese Dentária,2022,5.0
+RN,Auxiliar de Prótese Dentária,2023,1.0
+RN,Auxiliar de Prótese Dentária,2024,4.0
+RN,Auxiliar de Prótese Dentária,2025,8.0
+RN,Auxiliar em Saúde Bucal,2010,28.0
+RN,Auxiliar em Saúde Bucal,2011,55.0
+RN,Auxiliar em Saúde Bucal,2012,38.0
+RN,Auxiliar em Saúde Bucal,2013,84.0
+RN,Auxiliar em Saúde Bucal,2014,52.0
+RN,Auxiliar em Saúde Bucal,2015,69.0
+RN,Auxiliar em Saúde Bucal,2016,61.0
+RN,Auxiliar em Saúde Bucal,2017,93.0
+RN,Auxiliar em Saúde Bucal,2018,98.0
+RN,Auxiliar em Saúde Bucal,2019,71.0
+RN,Auxiliar em Saúde Bucal,2020,25.0
+RN,Auxiliar em Saúde Bucal,2021,53.0
+RN,Auxiliar em Saúde Bucal,2022,37.0
+RN,Auxiliar em Saúde Bucal,2023,40.0
+RN,Auxiliar em Saúde Bucal,2024,70.0
+RN,Auxiliar em Saúde Bucal,2025,69.0
+RN,Cirurgião Dentista,2010,117.0
+RN,Cirurgião Dentista,2011,148.0
+RN,Cirurgião Dentista,2012,112.0
+RN,Cirurgião Dentista,2013,142.0
+RN,Cirurgião Dentista,2014,179.0
+RN,Cirurgião Dentista,2015,145.0
+RN,Cirurgião Dentista,2016,227.0
+RN,Cirurgião Dentista,2017,311.0
+RN,Cirurgião Dentista,2018,223.0
+RN,Cirurgião Dentista,2019,225.0
+RN,Cirurgião Dentista,2020,237.0
+RN,Cirurgião Dentista,2021,335.0
+RN,Cirurgião Dentista,2022,339.0
+RN,Cirurgião Dentista,2023,346.0
+RN,Cirurgião Dentista,2024,404.0
+RN,Cirurgião Dentista,2025,451.0
+RN,Laboratório de Prótese Dentária,2011,2.0
+RN,Laboratório de Prótese Dentária,2012,1.0
+RN,Laboratório de Prótese Dentária,2013,6.0
+RN,Laboratório de Prótese Dentária,2014,4.0
+RN,Laboratório de Prótese Dentária,2015,1.0
+RN,Laboratório de Prótese Dentária,2016,2.0
+RN,Laboratório de Prótese Dentária,2017,4.0
+RN,Laboratório de Prótese Dentária,2018,4.0
+RN,Laboratório de Prótese Dentária,2019,1.0
+RN,Laboratório de Prótese Dentária,2021,5.0
+RN,Laboratório de Prótese Dentária,2022,3.0
+RN,Laboratório de Prótese Dentária,2023,1.0
+RN,Laboratório de Prótese Dentária,2025,6.0
+RN,Técnico em Prótese Dentária,2010,12.0
+RN,Técnico em Prótese Dentária,2011,10.0
+RN,Técnico em Prótese Dentária,2012,13.0
+RN,Técnico em Prótese Dentária,2013,11.0
+RN,Técnico em Prótese Dentária,2014,5.0
+RN,Técnico em Prótese Dentária,2015,7.0
+RN,Técnico em Prótese Dentária,2016,9.0
+RN,Técnico em Prótese Dentária,2017,15.0
+RN,Técnico em Prótese Dentária,2018,10.0
+RN,Técnico em Prótese Dentária,2019,11.0
+RN,Técnico em Prótese Dentária,2020,2.0
+RN,Técnico em Prótese Dentária,2021,11.0
+RN,Técnico em Prótese Dentária,2022,7.0
+RN,Técnico em Prótese Dentária,2023,8.0
+RN,Técnico em Prótese Dentária,2024,18.0
+RN,Técnico em Prótese Dentária,2025,13.0
+RN,Técnico em Saúde Bucal,2010,7.0
+RN,Técnico em Saúde Bucal,2011,19.0
+RN,Técnico em Saúde Bucal,2012,38.0
+RN,Técnico em Saúde Bucal,2013,141.0
+RN,Técnico em Saúde Bucal,2014,91.0
+RN,Técnico em Saúde Bucal,2015,139.0
+RN,Técnico em Saúde Bucal,2016,130.0
+RN,Técnico em Saúde Bucal,2017,140.0
+RN,Técnico em Saúde Bucal,2018,109.0
+RN,Técnico em Saúde Bucal,2019,179.0
+RN,Técnico em Saúde Bucal,2020,119.0
+RN,Técnico em Saúde Bucal,2021,221.0
+RN,Técnico em Saúde Bucal,2022,135.0
+RN,Técnico em Saúde Bucal,2023,149.0
+RN,Técnico em Saúde Bucal,2024,244.0
+RN,Técnico em Saúde Bucal,2025,211.0
+RO,Auxiliar de Prótese Dentária,2010,1.0
+RO,Auxiliar de Prótese Dentária,2011,4.0
+RO,Auxiliar de Prótese Dentária,2012,1.0
+RO,Auxiliar de Prótese Dentária,2013,6.0
+RO,Auxiliar de Prótese Dentária,2014,1.0
+RO,Auxiliar de Prótese Dentária,2015,3.0
+RO,Auxiliar de Prótese Dentária,2016,1.0
+RO,Auxiliar de Prótese Dentária,2018,5.0
+RO,Auxiliar de Prótese Dentária,2022,1.0
+RO,Auxiliar de Prótese Dentária,2023,3.0
+RO,Auxiliar de Prótese Dentária,2025,12.0
+RO,Auxiliar em Saúde Bucal,2010,8.0
+RO,Auxiliar em Saúde Bucal,2011,17.0
+RO,Auxiliar em Saúde Bucal,2012,17.0
+RO,Auxiliar em Saúde Bucal,2013,18.0
+RO,Auxiliar em Saúde Bucal,2014,28.0
+RO,Auxiliar em Saúde Bucal,2015,16.0
+RO,Auxiliar em Saúde Bucal,2016,16.0
+RO,Auxiliar em Saúde Bucal,2017,16.0
+RO,Auxiliar em Saúde Bucal,2018,10.0
+RO,Auxiliar em Saúde Bucal,2019,8.0
+RO,Auxiliar em Saúde Bucal,2020,15.0
+RO,Auxiliar em Saúde Bucal,2021,30.0
+RO,Auxiliar em Saúde Bucal,2022,27.0
+RO,Auxiliar em Saúde Bucal,2023,26.0
+RO,Auxiliar em Saúde Bucal,2024,43.0
+RO,Auxiliar em Saúde Bucal,2025,57.0
+RO,Cirurgião Dentista,2010,81.0
+RO,Cirurgião Dentista,2011,82.0
+RO,Cirurgião Dentista,2012,114.0
+RO,Cirurgião Dentista,2013,100.0
+RO,Cirurgião Dentista,2014,126.0
+RO,Cirurgião Dentista,2015,132.0
+RO,Cirurgião Dentista,2016,176.0
+RO,Cirurgião Dentista,2017,167.0
+RO,Cirurgião Dentista,2018,172.0
+RO,Cirurgião Dentista,2019,170.0
+RO,Cirurgião Dentista,2020,149.0
+RO,Cirurgião Dentista,2021,232.0
+RO,Cirurgião Dentista,2022,207.0
+RO,Cirurgião Dentista,2023,211.0
+RO,Cirurgião Dentista,2024,290.0
+RO,Cirurgião Dentista,2025,225.0
+RO,Laboratório de Prótese Dentária,2013,1.0
+RO,Laboratório de Prótese Dentária,2016,1.0
+RO,Laboratório de Prótese Dentária,2019,1.0
+RO,Laboratório de Prótese Dentária,2020,1.0
+RO,Laboratório de Prótese Dentária,2023,1.0
+RO,Laboratório de Prótese Dentária,2024,2.0
+RO,Laboratório de Prótese Dentária,2025,4.0
+RO,Técnico em Prótese Dentária,2010,3.0
+RO,Técnico em Prótese Dentária,2012,2.0
+RO,Técnico em Prótese Dentária,2013,3.0
+RO,Técnico em Prótese Dentária,2014,8.0
+RO,Técnico em Prótese Dentária,2015,8.0
+RO,Técnico em Prótese Dentária,2016,13.0
+RO,Técnico em Prótese Dentária,2017,3.0
+RO,Técnico em Prótese Dentária,2018,7.0
+RO,Técnico em Prótese Dentária,2019,2.0
+RO,Técnico em Prótese Dentária,2020,4.0
+RO,Técnico em Prótese Dentária,2021,1.0
+RO,Técnico em Prótese Dentária,2022,6.0
+RO,Técnico em Prótese Dentária,2023,12.0
+RO,Técnico em Prótese Dentária,2024,6.0
+RO,Técnico em Prótese Dentária,2025,7.0
+RO,Técnico em Saúde Bucal,2010,2.0
+RO,Técnico em Saúde Bucal,2011,9.0
+RO,Técnico em Saúde Bucal,2012,12.0
+RO,Técnico em Saúde Bucal,2013,10.0
+RO,Técnico em Saúde Bucal,2014,19.0
+RO,Técnico em Saúde Bucal,2015,18.0
+RO,Técnico em Saúde Bucal,2016,29.0
+RO,Técnico em Saúde Bucal,2017,14.0
+RO,Técnico em Saúde Bucal,2018,10.0
+RO,Técnico em Saúde Bucal,2019,34.0
+RO,Técnico em Saúde Bucal,2020,11.0
+RO,Técnico em Saúde Bucal,2021,11.0
+RO,Técnico em Saúde Bucal,2022,17.0
+RO,Técnico em Saúde Bucal,2023,9.0
+RO,Técnico em Saúde Bucal,2024,15.0
+RO,Técnico em Saúde Bucal,2025,12.0
+RR,Auxiliar de Prótese Dentária,2012,1.0
+RR,Auxiliar de Prótese Dentária,2013,3.0
+RR,Auxiliar de Prótese Dentária,2014,1.0
+RR,Auxiliar de Prótese Dentária,2015,2.0
+RR,Auxiliar de Prótese Dentária,2016,1.0
+RR,Auxiliar de Prótese Dentária,2017,2.0
+RR,Auxiliar de Prótese Dentária,2021,2.0
+RR,Auxiliar de Prótese Dentária,2022,3.0
+RR,Auxiliar de Prótese Dentária,2023,1.0
+RR,Auxiliar de Prótese Dentária,2024,6.0
+RR,Auxiliar de Prótese Dentária,2025,1.0
+RR,Auxiliar em Saúde Bucal,2010,37.0
+RR,Auxiliar em Saúde Bucal,2011,63.0
+RR,Auxiliar em Saúde Bucal,2012,53.0
+RR,Auxiliar em Saúde Bucal,2013,100.0
+RR,Auxiliar em Saúde Bucal,2014,39.0
+RR,Auxiliar em Saúde Bucal,2015,28.0
+RR,Auxiliar em Saúde Bucal,2016,21.0
+RR,Auxiliar em Saúde Bucal,2017,19.0
+RR,Auxiliar em Saúde Bucal,2018,15.0
+RR,Auxiliar em Saúde Bucal,2019,10.0
+RR,Auxiliar em Saúde Bucal,2020,7.0
+RR,Auxiliar em Saúde Bucal,2021,14.0
+RR,Auxiliar em Saúde Bucal,2022,40.0
+RR,Auxiliar em Saúde Bucal,2023,31.0
+RR,Auxiliar em Saúde Bucal,2024,47.0
+RR,Auxiliar em Saúde Bucal,2025,21.0
+RR,Cirurgião Dentista,2010,25.0
+RR,Cirurgião Dentista,2011,61.0
+RR,Cirurgião Dentista,2012,48.0
+RR,Cirurgião Dentista,2013,61.0
+RR,Cirurgião Dentista,2014,64.0
+RR,Cirurgião Dentista,2015,36.0
+RR,Cirurgião Dentista,2016,78.0
+RR,Cirurgião Dentista,2017,66.0
+RR,Cirurgião Dentista,2018,105.0
+RR,Cirurgião Dentista,2019,113.0
+RR,Cirurgião Dentista,2020,144.0
+RR,Cirurgião Dentista,2021,110.0
+RR,Cirurgião Dentista,2022,101.0
+RR,Cirurgião Dentista,2023,59.0
+RR,Cirurgião Dentista,2024,97.0
+RR,Cirurgião Dentista,2025,76.0
+RR,Laboratório de Prótese Dentária,2013,1.0
+RR,Laboratório de Prótese Dentária,2014,1.0
+RR,Laboratório de Prótese Dentária,2018,1.0
+RR,Laboratório de Prótese Dentária,2019,1.0
+RR,Laboratório de Prótese Dentária,2020,1.0
+RR,Laboratório de Prótese Dentária,2023,2.0
+RR,Laboratório de Prótese Dentária,2024,1.0
+RR,Técnico em Prótese Dentária,2012,2.0
+RR,Técnico em Prótese Dentária,2013,2.0
+RR,Técnico em Prótese Dentária,2014,2.0
+RR,Técnico em Prótese Dentária,2015,5.0
+RR,Técnico em Prótese Dentária,2016,1.0
+RR,Técnico em Prótese Dentária,2017,4.0
+RR,Técnico em Prótese Dentária,2018,3.0
+RR,Técnico em Prótese Dentária,2020,1.0
+RR,Técnico em Prótese Dentária,2021,4.0
+RR,Técnico em Prótese Dentária,2022,4.0
+RR,Técnico em Prótese Dentária,2023,1.0
+RR,Técnico em Prótese Dentária,2024,5.0
+RR,Técnico em Saúde Bucal,2010,2.0
+RR,Técnico em Saúde Bucal,2011,9.0
+RR,Técnico em Saúde Bucal,2012,11.0
+RR,Técnico em Saúde Bucal,2013,80.0
+RR,Técnico em Saúde Bucal,2014,26.0
+RR,Técnico em Saúde Bucal,2015,18.0
+RR,Técnico em Saúde Bucal,2016,9.0
+RR,Técnico em Saúde Bucal,2017,14.0
+RR,Técnico em Saúde Bucal,2018,23.0
+RR,Técnico em Saúde Bucal,2019,22.0
+RR,Técnico em Saúde Bucal,2020,28.0
+RR,Técnico em Saúde Bucal,2021,37.0
+RR,Técnico em Saúde Bucal,2022,40.0
+RR,Técnico em Saúde Bucal,2023,29.0
+RR,Técnico em Saúde Bucal,2024,39.0
+RR,Técnico em Saúde Bucal,2025,26.0
+RS,Auxiliar de Prótese Dentária,2011,6.0
+RS,Auxiliar de Prótese Dentária,2012,4.0
+RS,Auxiliar de Prótese Dentária,2013,12.0
+RS,Auxiliar de Prótese Dentária,2014,9.0
+RS,Auxiliar de Prótese Dentária,2015,7.0
+RS,Auxiliar de Prótese Dentária,2016,5.0
+RS,Auxiliar de Prótese Dentária,2017,2.0
+RS,Auxiliar de Prótese Dentária,2018,3.0
+RS,Auxiliar de Prótese Dentária,2019,10.0
+RS,Auxiliar de Prótese Dentária,2020,11.0
+RS,Auxiliar de Prótese Dentária,2021,30.0
+RS,Auxiliar de Prótese Dentária,2022,12.0
+RS,Auxiliar de Prótese Dentária,2023,13.0
+RS,Auxiliar de Prótese Dentária,2024,7.0
+RS,Auxiliar de Prótese Dentária,2025,4.0
+RS,Auxiliar em Saúde Bucal,2010,754.0
+RS,Auxiliar em Saúde Bucal,2011,932.0
+RS,Auxiliar em Saúde Bucal,2012,704.0
+RS,Auxiliar em Saúde Bucal,2013,593.0
+RS,Auxiliar em Saúde Bucal,2014,611.0
+RS,Auxiliar em Saúde Bucal,2015,606.0
+RS,Auxiliar em Saúde Bucal,2016,497.0
+RS,Auxiliar em Saúde Bucal,2017,529.0
+RS,Auxiliar em Saúde Bucal,2018,473.0
+RS,Auxiliar em Saúde Bucal,2019,569.0
+RS,Auxiliar em Saúde Bucal,2020,454.0
+RS,Auxiliar em Saúde Bucal,2021,670.0
+RS,Auxiliar em Saúde Bucal,2022,577.0
+RS,Auxiliar em Saúde Bucal,2023,617.0
+RS,Auxiliar em Saúde Bucal,2024,646.0
+RS,Auxiliar em Saúde Bucal,2025,535.0
+RS,Cirurgião Dentista,2010,868.0
+RS,Cirurgião Dentista,2011,638.0
+RS,Cirurgião Dentista,2012,375.0
+RS,Cirurgião Dentista,2013,607.0
+RS,Cirurgião Dentista,2014,718.0
+RS,Cirurgião Dentista,2015,755.0
+RS,Cirurgião Dentista,2016,746.0
+RS,Cirurgião Dentista,2017,482.0
+RS,Cirurgião Dentista,2018,852.0
+RS,Cirurgião Dentista,2019,916.0
+RS,Cirurgião Dentista,2020,853.0
+RS,Cirurgião Dentista,2021,1.003
+RS,Cirurgião Dentista,2022,765.0
+RS,Cirurgião Dentista,2023,894.0
+RS,Cirurgião Dentista,2024,972.0
+RS,Cirurgião Dentista,2025,790.0
+RS,Laboratório de Prótese Dentária,2010,5.0
+RS,Laboratório de Prótese Dentária,2011,2.0
+RS,Laboratório de Prótese Dentária,2012,8.0
+RS,Laboratório de Prótese Dentária,2013,10.0
+RS,Laboratório de Prótese Dentária,2014,6.0
+RS,Laboratório de Prótese Dentária,2015,11.0
+RS,Laboratório de Prótese Dentária,2016,17.0
+RS,Laboratório de Prótese Dentária,2017,7.0
+RS,Laboratório de Prótese Dentária,2018,14.0
+RS,Laboratório de Prótese Dentária,2019,13.0
+RS,Laboratório de Prótese Dentária,2020,13.0
+RS,Laboratório de Prótese Dentária,2021,16.0
+RS,Laboratório de Prótese Dentária,2022,13.0
+RS,Laboratório de Prótese Dentária,2023,21.0
+RS,Laboratório de Prótese Dentária,2024,29.0
+RS,Laboratório de Prótese Dentária,2025,24.0
+RS,Técnico em Prótese Dentária,2010,72.0
+RS,Técnico em Prótese Dentária,2011,71.0
+RS,Técnico em Prótese Dentária,2012,58.0
+RS,Técnico em Prótese Dentária,2013,76.0
+RS,Técnico em Prótese Dentária,2014,53.0
+RS,Técnico em Prótese Dentária,2015,79.0
+RS,Técnico em Prótese Dentária,2016,59.0
+RS,Técnico em Prótese Dentária,2017,80.0
+RS,Técnico em Prótese Dentária,2018,65.0
+RS,Técnico em Prótese Dentária,2019,52.0
+RS,Técnico em Prótese Dentária,2020,62.0
+RS,Técnico em Prótese Dentária,2021,83.0
+RS,Técnico em Prótese Dentária,2022,77.0
+RS,Técnico em Prótese Dentária,2023,79.0
+RS,Técnico em Prótese Dentária,2024,79.0
+RS,Técnico em Prótese Dentária,2025,55.0
+RS,Técnico em Saúde Bucal,2010,71.0
+RS,Técnico em Saúde Bucal,2011,96.0
+RS,Técnico em Saúde Bucal,2012,101.0
+RS,Técnico em Saúde Bucal,2013,95.0
+RS,Técnico em Saúde Bucal,2014,107.0
+RS,Técnico em Saúde Bucal,2015,117.0
+RS,Técnico em Saúde Bucal,2016,65.0
+RS,Técnico em Saúde Bucal,2017,91.0
+RS,Técnico em Saúde Bucal,2018,109.0
+RS,Técnico em Saúde Bucal,2019,121.0
+RS,Técnico em Saúde Bucal,2020,102.0
+RS,Técnico em Saúde Bucal,2021,124.0
+RS,Técnico em Saúde Bucal,2022,105.0
+RS,Técnico em Saúde Bucal,2023,133.0
+RS,Técnico em Saúde Bucal,2024,136.0
+RS,Técnico em Saúde Bucal,2025,112.0
+SC,Auxiliar de Prótese Dentária,2010,20.0
+SC,Auxiliar de Prótese Dentária,2011,26.0
+SC,Auxiliar de Prótese Dentária,2012,83.0
+SC,Auxiliar de Prótese Dentária,2013,35.0
+SC,Auxiliar de Prótese Dentária,2014,58.0
+SC,Auxiliar de Prótese Dentária,2015,31.0
+SC,Auxiliar de Prótese Dentária,2016,34.0
+SC,Auxiliar de Prótese Dentária,2017,27.0
+SC,Auxiliar de Prótese Dentária,2018,25.0
+SC,Auxiliar de Prótese Dentária,2019,13.0
+SC,Auxiliar de Prótese Dentária,2020,2.0
+SC,Auxiliar de Prótese Dentária,2021,12.0
+SC,Auxiliar de Prótese Dentária,2022,23.0
+SC,Auxiliar de Prótese Dentária,2023,17.0
+SC,Auxiliar de Prótese Dentária,2024,20.0
+SC,Auxiliar de Prótese Dentária,2025,10.0
+SC,Auxiliar em Saúde Bucal,2010,117.0
+SC,Auxiliar em Saúde Bucal,2011,157.0
+SC,Auxiliar em Saúde Bucal,2012,207.0
+SC,Auxiliar em Saúde Bucal,2013,241.0
+SC,Auxiliar em Saúde Bucal,2014,245.0
+SC,Auxiliar em Saúde Bucal,2015,314.0
+SC,Auxiliar em Saúde Bucal,2016,245.0
+SC,Auxiliar em Saúde Bucal,2017,287.0
+SC,Auxiliar em Saúde Bucal,2018,307.0
+SC,Auxiliar em Saúde Bucal,2019,341.0
+SC,Auxiliar em Saúde Bucal,2020,253.0
+SC,Auxiliar em Saúde Bucal,2021,390.0
+SC,Auxiliar em Saúde Bucal,2022,405.0
+SC,Auxiliar em Saúde Bucal,2023,477.0
+SC,Auxiliar em Saúde Bucal,2024,547.0
+SC,Auxiliar em Saúde Bucal,2025,426.0
+SC,Cirurgião Dentista,2010,430.0
+SC,Cirurgião Dentista,2011,427.0
+SC,Cirurgião Dentista,2012,425.0
+SC,Cirurgião Dentista,2013,478.0
+SC,Cirurgião Dentista,2014,421.0
+SC,Cirurgião Dentista,2015,558.0
+SC,Cirurgião Dentista,2016,547.0
+SC,Cirurgião Dentista,2017,653.0
+SC,Cirurgião Dentista,2018,814.0
+SC,Cirurgião Dentista,2019,945.0
+SC,Cirurgião Dentista,2020,718.0
+SC,Cirurgião Dentista,2021,1.03
+SC,Cirurgião Dentista,2022,978.0
+SC,Cirurgião Dentista,2023,1.076
+SC,Cirurgião Dentista,2024,1.289
+SC,Cirurgião Dentista,2025,894.0
+SC,Laboratório de Prótese Dentária,2010,4.0
+SC,Laboratório de Prótese Dentária,2011,5.0
+SC,Laboratório de Prótese Dentária,2012,11.0
+SC,Laboratório de Prótese Dentária,2013,9.0
+SC,Laboratório de Prótese Dentária,2014,20.0
+SC,Laboratório de Prótese Dentária,2015,7.0
+SC,Laboratório de Prótese Dentária,2016,11.0
+SC,Laboratório de Prótese Dentária,2017,13.0
+SC,Laboratório de Prótese Dentária,2018,15.0
+SC,Laboratório de Prótese Dentária,2019,21.0
+SC,Laboratório de Prótese Dentária,2020,8.0
+SC,Laboratório de Prótese Dentária,2021,21.0
+SC,Laboratório de Prótese Dentária,2022,26.0
+SC,Laboratório de Prótese Dentária,2023,20.0
+SC,Laboratório de Prótese Dentária,2024,24.0
+SC,Laboratório de Prótese Dentária,2025,22.0
+SC,Técnico em Prótese Dentária,2010,30.0
+SC,Técnico em Prótese Dentária,2011,40.0
+SC,Técnico em Prótese Dentária,2012,64.0
+SC,Técnico em Prótese Dentária,2013,48.0
+SC,Técnico em Prótese Dentária,2014,44.0
+SC,Técnico em Prótese Dentária,2015,60.0
+SC,Técnico em Prótese Dentária,2016,47.0
+SC,Técnico em Prótese Dentária,2017,48.0
+SC,Técnico em Prótese Dentária,2018,56.0
+SC,Técnico em Prótese Dentária,2019,60.0
+SC,Técnico em Prótese Dentária,2020,45.0
+SC,Técnico em Prótese Dentária,2021,64.0
+SC,Técnico em Prótese Dentária,2022,62.0
+SC,Técnico em Prótese Dentária,2023,73.0
+SC,Técnico em Prótese Dentária,2024,87.0
+SC,Técnico em Prótese Dentária,2025,61.0
+SC,Técnico em Saúde Bucal,2010,89.0
+SC,Técnico em Saúde Bucal,2011,78.0
+SC,Técnico em Saúde Bucal,2012,234.0
+SC,Técnico em Saúde Bucal,2013,132.0
+SC,Técnico em Saúde Bucal,2014,135.0
+SC,Técnico em Saúde Bucal,2015,155.0
+SC,Técnico em Saúde Bucal,2016,101.0
+SC,Técnico em Saúde Bucal,2017,104.0
+SC,Técnico em Saúde Bucal,2018,151.0
+SC,Técnico em Saúde Bucal,2019,169.0
+SC,Técnico em Saúde Bucal,2020,108.0
+SC,Técnico em Saúde Bucal,2021,164.0
+SC,Técnico em Saúde Bucal,2022,170.0
+SC,Técnico em Saúde Bucal,2023,154.0
+SC,Técnico em Saúde Bucal,2024,202.0
+SC,Técnico em Saúde Bucal,2025,150.0
+SE,Auxiliar de Prótese Dentária,2010,2.0
+SE,Auxiliar de Prótese Dentária,2011,1.0
+SE,Auxiliar de Prótese Dentária,2012,1.0
+SE,Auxiliar de Prótese Dentária,2013,4.0
+SE,Auxiliar de Prótese Dentária,2015,1.0
+SE,Auxiliar de Prótese Dentária,2016,6.0
+SE,Auxiliar de Prótese Dentária,2018,2.0
+SE,Auxiliar de Prótese Dentária,2019,1.0
+SE,Auxiliar de Prótese Dentária,2020,1.0
+SE,Auxiliar de Prótese Dentária,2021,4.0
+SE,Auxiliar de Prótese Dentária,2022,6.0
+SE,Auxiliar de Prótese Dentária,2023,2.0
+SE,Auxiliar de Prótese Dentária,2025,3.0
+SE,Auxiliar em Saúde Bucal,2010,35.0
+SE,Auxiliar em Saúde Bucal,2011,58.0
+SE,Auxiliar em Saúde Bucal,2012,80.0
+SE,Auxiliar em Saúde Bucal,2013,110.0
+SE,Auxiliar em Saúde Bucal,2014,179.0
+SE,Auxiliar em Saúde Bucal,2015,104.0
+SE,Auxiliar em Saúde Bucal,2016,107.0
+SE,Auxiliar em Saúde Bucal,2017,144.0
+SE,Auxiliar em Saúde Bucal,2018,122.0
+SE,Auxiliar em Saúde Bucal,2019,122.0
+SE,Auxiliar em Saúde Bucal,2020,125.0
+SE,Auxiliar em Saúde Bucal,2021,240.0
+SE,Auxiliar em Saúde Bucal,2022,221.0
+SE,Auxiliar em Saúde Bucal,2023,248.0
+SE,Auxiliar em Saúde Bucal,2024,353.0
+SE,Auxiliar em Saúde Bucal,2025,242.0
+SE,Cirurgião Dentista,2010,67.0
+SE,Cirurgião Dentista,2011,64.0
+SE,Cirurgião Dentista,2012,73.0
+SE,Cirurgião Dentista,2013,67.0
+SE,Cirurgião Dentista,2014,82.0
+SE,Cirurgião Dentista,2015,75.0
+SE,Cirurgião Dentista,2016,93.0
+SE,Cirurgião Dentista,2017,108.0
+SE,Cirurgião Dentista,2018,138.0
+SE,Cirurgião Dentista,2019,159.0
+SE,Cirurgião Dentista,2020,176.0
+SE,Cirurgião Dentista,2021,181.0
+SE,Cirurgião Dentista,2022,207.0
+SE,Cirurgião Dentista,2023,259.0
+SE,Cirurgião Dentista,2024,316.0
+SE,Cirurgião Dentista,2025,237.0
+SE,Laboratório de Prótese Dentária,2012,1.0
+SE,Laboratório de Prótese Dentária,2013,1.0
+SE,Laboratório de Prótese Dentária,2014,2.0
+SE,Laboratório de Prótese Dentária,2016,1.0
+SE,Laboratório de Prótese Dentária,2017,1.0
+SE,Laboratório de Prótese Dentária,2018,1.0
+SE,Laboratório de Prótese Dentária,2019,4.0
+SE,Laboratório de Prótese Dentária,2021,1.0
+SE,Laboratório de Prótese Dentária,2023,1.0
+SE,Laboratório de Prótese Dentária,2024,1.0
+SE,Laboratório de Prótese Dentária,2025,1.0
+SE,Técnico em Prótese Dentária,2010,5.0
+SE,Técnico em Prótese Dentária,2011,2.0
+SE,Técnico em Prótese Dentária,2012,6.0
+SE,Técnico em Prótese Dentária,2013,9.0
+SE,Técnico em Prótese Dentária,2014,9.0
+SE,Técnico em Prótese Dentária,2015,3.0
+SE,Técnico em Prótese Dentária,2016,3.0
+SE,Técnico em Prótese Dentária,2017,2.0
+SE,Técnico em Prótese Dentária,2018,8.0
+SE,Técnico em Prótese Dentária,2019,4.0
+SE,Técnico em Prótese Dentária,2020,4.0
+SE,Técnico em Prótese Dentária,2021,8.0
+SE,Técnico em Prótese Dentária,2022,3.0
+SE,Técnico em Prótese Dentária,2023,6.0
+SE,Técnico em Prótese Dentária,2024,5.0
+SE,Técnico em Prótese Dentária,2025,7.0
+SE,Técnico em Saúde Bucal,2010,1.0
+SE,Técnico em Saúde Bucal,2011,1.0
+SE,Técnico em Saúde Bucal,2013,6.0
+SE,Técnico em Saúde Bucal,2014,11.0
+SE,Técnico em Saúde Bucal,2015,15.0
+SE,Técnico em Saúde Bucal,2016,21.0
+SE,Técnico em Saúde Bucal,2017,16.0
+SE,Técnico em Saúde Bucal,2018,6.0
+SE,Técnico em Saúde Bucal,2019,10.0
+SE,Técnico em Saúde Bucal,2020,11.0
+SE,Técnico em Saúde Bucal,2021,20.0
+SE,Técnico em Saúde Bucal,2022,29.0
+SE,Técnico em Saúde Bucal,2023,53.0
+SE,Técnico em Saúde Bucal,2024,46.0
+SE,Técnico em Saúde Bucal,2025,43.0
+SP,Auxiliar de Prótese Dentária,2010,51.0
+SP,Auxiliar de Prótese Dentária,2011,64.0
+SP,Auxiliar de Prótese Dentária,2012,38.0
+SP,Auxiliar de Prótese Dentária,2013,54.0
+SP,Auxiliar de Prótese Dentária,2014,50.0
+SP,Auxiliar de Prótese Dentária,2015,86.0
+SP,Auxiliar de Prótese Dentária,2016,75.0
+SP,Auxiliar de Prótese Dentária,2017,60.0
+SP,Auxiliar de Prótese Dentária,2018,58.0
+SP,Auxiliar de Prótese Dentária,2019,63.0
+SP,Auxiliar de Prótese Dentária,2020,21.0
+SP,Auxiliar de Prótese Dentária,2021,61.0
+SP,Auxiliar de Prótese Dentária,2022,111.0
+SP,Auxiliar de Prótese Dentária,2023,105.0
+SP,Auxiliar de Prótese Dentária,2024,79.0
+SP,Auxiliar de Prótese Dentária,2025,72.0
+SP,Auxiliar em Saúde Bucal,2010,1.116
+SP,Auxiliar em Saúde Bucal,2011,1.066
+SP,Auxiliar em Saúde Bucal,2012,1.084
+SP,Auxiliar em Saúde Bucal,2013,941.0
+SP,Auxiliar em Saúde Bucal,2014,1.08
+SP,Auxiliar em Saúde Bucal,2015,1.059
+SP,Auxiliar em Saúde Bucal,2016,1.161
+SP,Auxiliar em Saúde Bucal,2017,1.403
+SP,Auxiliar em Saúde Bucal,2018,1.606
+SP,Auxiliar em Saúde Bucal,2019,1.803
+SP,Auxiliar em Saúde Bucal,2020,1.346
+SP,Auxiliar em Saúde Bucal,2021,1.976
+SP,Auxiliar em Saúde Bucal,2022,2.107
+SP,Auxiliar em Saúde Bucal,2023,2.384
+SP,Auxiliar em Saúde Bucal,2024,2.388
+SP,Auxiliar em Saúde Bucal,2025,1.529
+SP,Cirurgião Dentista,2010,1.744
+SP,Cirurgião Dentista,2011,1.962
+SP,Cirurgião Dentista,2012,2.005
+SP,Cirurgião Dentista,2013,2.226
+SP,Cirurgião Dentista,2014,2.336
+SP,Cirurgião Dentista,2015,2.899
+SP,Cirurgião Dentista,2016,2.939
+SP,Cirurgião Dentista,2017,3.598
+SP,Cirurgião Dentista,2018,4.341
+SP,Cirurgião Dentista,2019,4.762
+SP,Cirurgião Dentista,2020,4.045
+SP,Cirurgião Dentista,2021,4.929
+SP,Cirurgião Dentista,2022,5.487
+SP,Cirurgião Dentista,2023,5.24
+SP,Cirurgião Dentista,2024,6.423
+SP,Cirurgião Dentista,2025,4.78
+SP,Laboratório de Prótese Dentária,2010,37.0
+SP,Laboratório de Prótese Dentária,2011,21.0
+SP,Laboratório de Prótese Dentária,2012,31.0
+SP,Laboratório de Prótese Dentária,2013,24.0
+SP,Laboratório de Prótese Dentária,2014,23.0
+SP,Laboratório de Prótese Dentária,2015,33.0
+SP,Laboratório de Prótese Dentária,2016,28.0
+SP,Laboratório de Prótese Dentária,2017,27.0
+SP,Laboratório de Prótese Dentária,2018,34.0
+SP,Laboratório de Prótese Dentária,2019,41.0
+SP,Laboratório de Prótese Dentária,2020,30.0
+SP,Laboratório de Prótese Dentária,2021,36.0
+SP,Laboratório de Prótese Dentária,2022,49.0
+SP,Laboratório de Prótese Dentária,2023,73.0
+SP,Laboratório de Prótese Dentária,2024,71.0
+SP,Laboratório de Prótese Dentária,2025,43.0
+SP,Técnico em Prótese Dentária,2010,239.0
+SP,Técnico em Prótese Dentária,2011,233.0
+SP,Técnico em Prótese Dentária,2012,183.0
+SP,Técnico em Prótese Dentária,2013,229.0
+SP,Técnico em Prótese Dentária,2014,194.0
+SP,Técnico em Prótese Dentária,2015,239.0
+SP,Técnico em Prótese Dentária,2016,216.0
+SP,Técnico em Prótese Dentária,2017,222.0
+SP,Técnico em Prótese Dentária,2018,198.0
+SP,Técnico em Prótese Dentária,2019,247.0
+SP,Técnico em Prótese Dentária,2020,142.0
+SP,Técnico em Prótese Dentária,2021,207.0
+SP,Técnico em Prótese Dentária,2022,231.0
+SP,Técnico em Prótese Dentária,2023,234.0
+SP,Técnico em Prótese Dentária,2024,285.0
+SP,Técnico em Prótese Dentária,2025,204.0
+SP,Técnico em Saúde Bucal,2010,116.0
+SP,Técnico em Saúde Bucal,2011,130.0
+SP,Técnico em Saúde Bucal,2012,216.0
+SP,Técnico em Saúde Bucal,2013,193.0
+SP,Técnico em Saúde Bucal,2014,203.0
+SP,Técnico em Saúde Bucal,2015,202.0
+SP,Técnico em Saúde Bucal,2016,235.0
+SP,Técnico em Saúde Bucal,2017,199.0
+SP,Técnico em Saúde Bucal,2018,237.0
+SP,Técnico em Saúde Bucal,2019,300.0
+SP,Técnico em Saúde Bucal,2020,239.0
+SP,Técnico em Saúde Bucal,2021,380.0
+SP,Técnico em Saúde Bucal,2022,445.0
+SP,Técnico em Saúde Bucal,2023,439.0
+SP,Técnico em Saúde Bucal,2024,564.0
+SP,Técnico em Saúde Bucal,2025,423.0
+TO,Auxiliar de Prótese Dentária,2013,1.0
+TO,Auxiliar de Prótese Dentária,2015,1.0
+TO,Auxiliar de Prótese Dentária,2024,7.0
+TO,Auxiliar em Saúde Bucal,2010,26.0
+TO,Auxiliar em Saúde Bucal,2011,21.0
+TO,Auxiliar em Saúde Bucal,2012,13.0
+TO,Auxiliar em Saúde Bucal,2013,23.0
+TO,Auxiliar em Saúde Bucal,2014,20.0
+TO,Auxiliar em Saúde Bucal,2015,38.0
+TO,Auxiliar em Saúde Bucal,2016,20.0
+TO,Auxiliar em Saúde Bucal,2017,45.0
+TO,Auxiliar em Saúde Bucal,2018,43.0
+TO,Auxiliar em Saúde Bucal,2019,39.0
+TO,Auxiliar em Saúde Bucal,2020,31.0
+TO,Auxiliar em Saúde Bucal,2021,37.0
+TO,Auxiliar em Saúde Bucal,2022,50.0
+TO,Auxiliar em Saúde Bucal,2023,56.0
+TO,Auxiliar em Saúde Bucal,2024,74.0
+TO,Auxiliar em Saúde Bucal,2025,49.0
+TO,Cirurgião Dentista,2010,84.0
+TO,Cirurgião Dentista,2011,85.0
+TO,Cirurgião Dentista,2012,84.0
+TO,Cirurgião Dentista,2013,108.0
+TO,Cirurgião Dentista,2014,104.0
+TO,Cirurgião Dentista,2015,112.0
+TO,Cirurgião Dentista,2016,127.0
+TO,Cirurgião Dentista,2017,133.0
+TO,Cirurgião Dentista,2018,152.0
+TO,Cirurgião Dentista,2019,194.0
+TO,Cirurgião Dentista,2020,148.0
+TO,Cirurgião Dentista,2021,186.0
+TO,Cirurgião Dentista,2022,178.0
+TO,Cirurgião Dentista,2023,185.0
+TO,Cirurgião Dentista,2024,195.0
+TO,Cirurgião Dentista,2025,217.0
+TO,Laboratório de Prótese Dentária,2012,1.0
+TO,Laboratório de Prótese Dentária,2014,1.0
+TO,Laboratório de Prótese Dentária,2015,1.0
+TO,Laboratório de Prótese Dentária,2016,4.0
+TO,Laboratório de Prótese Dentária,2018,1.0
+TO,Laboratório de Prótese Dentária,2019,1.0
+TO,Laboratório de Prótese Dentária,2021,5.0
+TO,Laboratório de Prótese Dentária,2022,4.0
+TO,Laboratório de Prótese Dentária,2023,2.0
+TO,Laboratório de Prótese Dentária,2024,8.0
+TO,Laboratório de Prótese Dentária,2025,7.0
+TO,Técnico em Prótese Dentária,2010,8.0
+TO,Técnico em Prótese Dentária,2011,8.0
+TO,Técnico em Prótese Dentária,2012,14.0
+TO,Técnico em Prótese Dentária,2013,7.0
+TO,Técnico em Prótese Dentária,2014,13.0
+TO,Técnico em Prótese Dentária,2015,12.0
+TO,Técnico em Prótese Dentária,2016,4.0
+TO,Técnico em Prótese Dentária,2017,9.0
+TO,Técnico em Prótese Dentária,2018,3.0
+TO,Técnico em Prótese Dentária,2019,1.0
+TO,Técnico em Prótese Dentária,2020,1.0
+TO,Técnico em Prótese Dentária,2021,13.0
+TO,Técnico em Prótese Dentária,2022,7.0
+TO,Técnico em Prótese Dentária,2023,7.0
+TO,Técnico em Prótese Dentária,2024,9.0
+TO,Técnico em Prótese Dentária,2025,13.0
+TO,Técnico em Saúde Bucal,2010,11.0
+TO,Técnico em Saúde Bucal,2011,13.0
+TO,Técnico em Saúde Bucal,2012,16.0
+TO,Técnico em Saúde Bucal,2013,13.0
+TO,Técnico em Saúde Bucal,2014,13.0
+TO,Técnico em Saúde Bucal,2015,14.0
+TO,Técnico em Saúde Bucal,2016,15.0
+TO,Técnico em Saúde Bucal,2017,12.0
+TO,Técnico em Saúde Bucal,2018,23.0
+TO,Técnico em Saúde Bucal,2019,21.0
+TO,Técnico em Saúde Bucal,2020,20.0
+TO,Técnico em Saúde Bucal,2021,36.0
+TO,Técnico em Saúde Bucal,2022,26.0
+TO,Técnico em Saúde Bucal,2023,18.0
+TO,Técnico em Saúde Bucal,2024,23.0
+TO,Técnico em Saúde Bucal,2025,18.0

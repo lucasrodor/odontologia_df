@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cenário da Odontologia — DF (Dashboard)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body{font-family:Inter,system-ui,Arial,sans-serif;background:#F8F9FA;color:#343A40}
+    .chart-container{position:relative;width:100%;max-width:1000px;margin-inline:auto;height:420px}
+    .nav-button{transition:all .25s ease}
+    .nav-button.active{background:#005f73;color:#fff;box-shadow:0 4px 10px rgba(0,0,0,.08)}
+    .content-section{display:none}
+    .content-section.active{display:block}
+    .loading-overlay{position:absolute;inset:0;background:rgba(255,255,255,.85);display:flex;align-items:center;justify-content:center;z-index:10}
+    .spinner{border:4px solid #eee;border-top:4px solid #005f73;border-radius:50%;width:38px;height:38px;animation:spin 1s linear infinite}
+    @keyframes spin{from{transform:rotate(0)}to{transform:rotate(360deg)}}
+    .heatmap-cell{padding:8px 6px;font-size:.78rem;text-align:center;white-space:nowrap}
+    .kpi{font-size:2.2rem;line-height:1}
+    /* Botões de UF quando ativos */
+    .state-select.active{background:#005f73 !important;color:#fff !important}
+  </style>
+</head>
+<body class="antialiased">
+<header class="bg-white shadow-md sticky top-0 z-10">
+  <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <h1 class="text-2xl font-bold text-[#005f73]">Cenário da Odontologia — DF</h1>
+      <nav class="hidden md:flex gap-2">
+        <button onclick="showSection('overview')" class="nav-button active px-3 py-2 rounded-md text-sm font-medium">Visão Geral</button>
+        <button onclick="showSection('comparison')" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Composição</button>
+        <button onclick="showSection('paradox')" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Paradoxo</button>
+        <button onclick="showSection('yoy')" class="nav-button px-3 py-2 rounded-md text-sm font-medium">YoY & Volatilidade</button>
+        <button onclick="showSection('recommendations')" class="nav-button px-3 py-2 rounded-md text-sm font-medium">Recomendações</button>
+      </nav>
+      <button id="mobile-toggle" class="md:hidden p-2 rounded-md hover:bg-gray-100" aria-label="Abrir menu">
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden md:hidden px-4 pb-3 grid gap-2">
+    <button onclick="showSection('overview');toggleMobile(false)" class="nav-button active px-3 py-2 rounded-md text-left">Visão Geral</button>
+    <button onclick="showSection('comparison');toggleMobile(false)" class="nav-button px-3 py-2 rounded-md text-left">Composição</button>
+    <button onclick="showSection('paradox');toggleMobile(false)" class="nav-button px-3 py-2 rounded-md text-left">Paradoxo</button>
+    <button onclick="showSection('yoy');toggleMobile(false)" class="nav-button px-3 py-2 rounded-md text-left">YoY & Volatilidade</button>
+    <button onclick="showSection('recommendations');toggleMobile(false)" class="nav-button px-3 py-2 rounded-md text-left">Recomendações</button>
+  </div>
+</header>
+
+<main class="container mx-auto p-4 sm:p-6 lg:p-8">
+
+  <!-- VISÃO GERAL -->
+  <section id="overview" class="content-section active">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-[#005f73]">Panorama (2010–<span id="kpi-ano-fim">2025</span>)</h2>
+      <p class="max-w-3xl mx-auto text-gray-700">
+        O DF cresce de forma consistente no longo prazo, mas com alguns soluços recentes. Em relação ao Brasil, o Distrito Federal tem
+        um mercado mais concentrado em dentistas — o que aumenta a competição e exige diferenciação clara.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-center">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div id="kpi-cagr" class="kpi text-[#005f73]">—</div>
+        <p class="text-gray-500 mt-1">Crescimento médio anual (DF)</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div id="kpi-yoy-ultimo" class="kpi text-[#ae2012]">—</div>
+        <p class="text-gray-500 mt-1">Variação do último ano</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div id="kpi-rank" class="kpi text-[#005f73]">—</div>
+        <p class="text-gray-500 mt-1">Posição do DF no ranking</p>
+      </div>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow mb-8">
+      <h3 class="text-lg font-semibold text-center mb-2">Evolução por UF (inclua o Brasil para contexto)</h3>
+      <p class="text-gray-500 text-sm text-center mb-3">Use os botões para ligar/desligar as linhas. Há atalhos para selecionar todas/limpar.</p>
+
+      <!-- Controles + Botões de UF -->
+      <div id="uf-buttons" class="mb-3"></div>
+
+      <div class="chart-container">
+        <div id="loading-growth" class="loading-overlay hidden"><div class="spinner"></div></div>
+        <canvas id="growthChart"></canvas>
+      </div>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow mb-8">
+      <h3 class="text-lg font-semibold text-center mb-3">Ranking por UF — <span id="rank-ano">2025</span></h3>
+      <div class="chart-container"><canvas id="rankingChart"></canvas></div>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-lg font-semibold text-center mb-3">Posição do DF ao longo do tempo</h3>
+      <div class="chart-container"><canvas id="rankEvolutionChart"></canvas></div>
+    </div>
+  </section>
+
+  <!-- COMPOSIÇÃO -->
+  <section id="comparison" class="content-section">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-[#005f73]">Quem compõe o mercado: DF x Brasil</h2>
+      <p class="max-w-3xl mx-auto text-gray-700">
+        O DF tem mais dentistas na sua “cesta” de profissionais e menos equipes de apoio do que a média do Brasil. Isso favorece
+        consultórios mais enxutos, mas limita ganhos de escala. O resultado: disputa forte por pacientes e uma pressão maior por qualidade percebida.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-base font-semibold text-center mb-3">Composição — DF (último ano)</h3>
+        <div class="chart-container" style="height:380px"><canvas id="compositionDfChart"></canvas></div>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-base font-semibold text-center mb-3">Composição — Brasil (último ano)</h3>
+        <div class="chart-container" style="height:380px"><canvas id="compositionBrChart"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARADOXO -->
+  <section id="paradox" class="content-section">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-[#005f73]">Paradoxo do DF: muita oferta no privado, falta no SUS</h2>
+      <p class="max-w-3xl mx-auto text-gray-700">
+        Brasília concentra muitos dentistas no geral, mas a rede pública ainda tem vazios importantes. O desafio não é a quantidade total,
+        é <strong>onde</strong> esses profissionais estão.
+      </p>
+    </div>
+
+    <!-- KPIs VISUAIS -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6 text-center">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="text-sm text-gray-500 mb-1">Densidade de CD — DF</div>
+        <div id="kpi-ratio-df" class="kpi text-[#005f73]">1:—</div>
+        <div class="text-xs text-gray-500">População por dentista (últ. ano)</div>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="text-sm text-gray-500 mb-1">Densidade de CD — Brasil</div>
+        <div id="kpi-ratio-br" class="kpi text-[#005f73]">1:—</div>
+        <div class="text-xs text-gray-500">População por dentista (últ. ano)</div>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="text-sm text-gray-500 mb-1">Cobertura no SUS (DF)</div>
+        <div id="kpi-sus-df" class="kpi text-[#ae2012]">1:—</div>
+        <div class="text-xs text-gray-500">População por dentista (estimativa)</div>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <div class="text-sm text-gray-500 mb-1">Vagas/necessidades na rede</div>
+        <div id="kpi-vagas" class="kpi text-[#ee9b00]">—</div>
+        <div class="text-xs text-gray-500">Cargos vagos / demanda</div>
+      </div>
+    </div>
+
+    <!-- MINI GRÁFICO: % CD no mix DF x BR -->
+    <div class="bg-white p-6 rounded-lg shadow mb-6">
+      <h3 class="text-base font-semibold mb-2">Participação de Cirurgiões-Dentistas no mix (%)</h3>
+      <p class="text-gray-600 text-sm mb-3">Diferença ajuda a entender por que o DF é mais competitivo no privado.</p>
+      <div class="chart-container" style="height:320px"><canvas id="cdShareChart"></canvas></div>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-base font-semibold mb-2">O que isso significa na prática</h3>
+      <ul class="list-disc pl-6 space-y-2 text-gray-700">
+        <li><strong>Muitos dentistas em Brasília</strong> elevam a competição por paciente e por preço. Sem diferencial, o consultório “entra na multidão”.</li>
+        <li><strong>Falta no SUS</strong> cria filas e sobrecarga. Direcionar profissionais e abrir vagas reais (com condições atrativas) é o ponto crítico.</li>
+        <li><strong>Equipes enxutas</strong> pedem organização e tecnologia simples (agenda, comunicação, fluxos digitais) para ganhar eficiência sem inflar custo fixo.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- YOY -->
+  <section id="yoy" class="content-section">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-[#005f73]">Curto prazo: anos “para cima” e “para baixo”</h2>
+      <p class="max-w-3xl mx-auto text-gray-700">
+        O sobe-e-desce anual mostra quando o mercado acelera ou freia. Use estas variações para ajustar metas e calendário:
+        promova serviços mais acessíveis em fases de retração e priorize especialidades de maior valor quando a demanda aquece.
+      </p>
+    </div>
+
+    <div class="bg-white p-6 rounded-lg shadow">
+      <h3 class="text-base font-semibold text-center mb-3">Heatmap de variação anual por UF (YoY, %)</h3>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left whitespace-nowrap text-sm">
+          <thead class="bg-gray-100" id="heatmap-head"></thead>
+          <tbody id="heatmap-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOMENDAÇÕES (TOM PRÁTICO) -->
+  <section id="recommendations" class="content-section">
+    <div class="text-center mb-8">
+      <h2 class="text-3xl font-bold text-[#005f73]">Recomendações diretas</h2>
+      <p class="max-w-3xl mx-auto text-gray-700">
+        O DF é bom para quem oferece algo claro e valioso. Foque no que te diferencia — e simplifique o resto.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">Posicionamento</h3>
+        <p class="text-gray-700">Evite ser “clínica genérica”. Escolha 1–2 frentes fortes (ex.: estética, reabilitação, dor orofacial) e comunique isso em todos os canais.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">Produtividade sem complicação</h3>
+        <p class="text-gray-700">Padronize atendimentos, use confirmação de consultas por WhatsApp e prontuário digital simples. Pequenas rotinas poupam horas por semana.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">Time de apoio na medida</h3>
+        <p class="text-gray-700">Se você faz muitos procedimentos, um ASB/TSB bem treinado vale ouro. Ele libera você para o que realmente precisa do CD.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">Preço e acesso</h3>
+        <p class="text-gray-700">Monte pacotes e condições simples. Em momentos de mercado mais frio, campanhas curtas ajudam a manter a agenda cheia.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">SUS e parcerias</h3>
+        <p class="text-gray-700">Há espaço no público: acompanhe concursos, credenciamentos e parcerias com a rede. Além de impacto social, dá estabilidade de receita.</p>
+      </div>
+      <div class="bg-white p-6 rounded-lg shadow">
+        <h3 class="text-lg font-semibold mb-2">Expansão inteligente</h3>
+        <p class="text-gray-700">Quer crescer? Teste bairros/municípios próximos com menor concorrência direta antes de investir pesado em novas unidades.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script>
+/* ====== ARQUIVOS ====== */
+const PATH = {
+  ufAno: 'data\\resumo_uf_por_ano.csv',
+  brAno: 'data\\resumo_brasil_por_ano.csv',
+  rank: 'data\\ranking_ufs_2025.csv',
+  mix: 'data\\mix_df_vs_brasil_2025.csv',
+  yoy: 'data\\yoy_percent_por_uf.csv',
+  ufCatAno: 'data\\resumo_uf_categoria_por_ano.csv',
+  popUF: 'data\\populacao_uf_ano.csv' // opcional
+};
+const UF_REF = 'DF';
+const RANKING_ANO = 2025;
+
+/* Se não houver CSV de população, use estes valores (edite se quiser) */
+const PARADOXO_DEFAULTS = {
+  df_cd_ratio: 326,   // 1:326 no DF
+  br_cd_ratio: 500,   // 1:500 no Brasil (ajuste se tiver dado)
+  sus_df_ratio: 4000, // 1:4000 no SUS-DF (estimativa)
+  vagas_df: 653       // cargos vagos/necessidades (estimativa)
+};
+
+/* ====== STATE ====== */
+let UF_ANO=[], BR_ANO=[], RANK=[], MIX=null, YOY=[], UF_CAT_ANO=[], POP_UF=[];
+let growthChart, rankingChart, rankEvolutionChart, compositionDfChart, compositionBrChart, cdShareChart;
+
+/* ====== HELPERS ====== */
+const fmt = n => (n??0).toLocaleString('pt-BR',{maximumFractionDigits:2});
+const fmtPct = x => (x==null||isNaN(x))? '—' : (x>0?'+':'')+x.toFixed(2).replace('.',',')+'%';
+async function fetchText(path){ const r=await fetch(path,{cache:'no-store'}); if(!r.ok) throw new Error(path); return r.text(); }
+function parseCSV(text){
+  const rows = text.trim().split(/\r?\n/);
+  const headers = rows[0].split(',').map(h=>h.trim());
+  return rows.slice(1).map(line=>{
+    const cols = line.split(',').map(c=>c.trim());
+    const obj = {}; headers.forEach((h,i)=> obj[h]=cols[i]??''); return obj;
+  });
+}
+function unique(a){ return [...new Set(a)]; }
+function yoyPercentList(series){
+  const out=[]; for(let i=1;i<series.length;i++){ const p=series[i-1]?.quantidade||null, c=series[i]?.quantidade||null; out.push((p>0&&c!=null)? ((c-p)/p*100): null); } return out;
+}
+function cagr(v0,v1,ny){ if(v0>0 && ny>0) return (Math.pow(v1/v0,1/ny)-1)*100; return null; }
+function colorForYoY(v){ if(v==null||isNaN(v)) return '#f3f4f6'; if(v>20) return '#006d77'; if(v>5) return '#83c5be'; if(v<-10) return '#e76f51'; if(v<0) return '#f4a261'; return '#a8dadc'; }
+
+/* ====== LOAD ====== */
+async function loadAll(){
+  const [ufAnoT, brAnoT, rankT, mixT, yoyT, ufCatT, popT] = await Promise.allSettled([
+    fetchText(PATH.ufAno), fetchText(PATH.brAno), fetchText(PATH.rank), fetchText(PATH.mix),
+    fetchText(PATH.yoy), fetchText(PATH.ufCatAno), fetchText(PATH.popUF)
+  ]);
+
+  if(ufAnoT.status==='fulfilled'){
+    UF_ANO = parseCSV(ufAnoT.value).map(d=>({ uf:String(d.uf), ano:+d.ano, quantidade:+d.quantidade })).filter(d=>!Number.isNaN(d.ano));
+  }
+  if(brAnoT.status==='fulfilled'){
+    BR_ANO = parseCSV(brAnoT.value).map(d=>({ ano:+d.ano, quantidade:+d.quantidade })).filter(d=>!Number.isNaN(d.ano));
+  }
+  if(rankT.status==='fulfilled'){
+    RANK = parseCSV(rankT.value).map(d=>({ uf:String(d.uf), quantidade:+d.quantidade }));
+  } else {
+    const y = Math.max(...UF_ANO.map(d=>d.ano));
+    const byUF = {};
+    UF_ANO.filter(d=>d.ano===y).forEach(d=>{ byUF[d.uf]=(byUF[d.uf]||0)+d.quantidade; });
+    RANK = Object.entries(byUF).map(([uf,quantidade])=>({uf,quantidade})).sort((a,b)=>b.quantidade-a.quantidade);
+  }
+  if(mixT.status==='fulfilled'){
+    const rows = parseCSV(mixT.value);
+    const labels = rows.map(r=>r.categoria);
+    const dfPct = rows.map(r=>parseFloat(String(r['% DF']||r['%DF']||r['pct_df']).replace(',','.')));
+    const brPct = rows.map(r=>parseFloat(String(r['% Brasil']||r['%Brasil']||r['pct_br']).replace(',','.')));
+    MIX = { labels, df:dfPct, br:brPct };
+  } else { MIX = { labels:[], df:[], br:[] }; }
+  if(yoyT.status==='fulfilled'){
+    const raw = parseCSV(yoyT.value);
+    const headers = Object.keys(raw[0]);
+    const firstCol = headers[0]; // pode ser "ano" ou "Unnamed: 0"
+    const ufs = headers.slice(1); // colunas de UFs
+    YOY = raw.map(r=>{
+      const o={ano:+r[firstCol]};
+      ufs.forEach(uf=> o[uf]= r[uf]===''? null : parseFloat(r[uf]) );
+      return o;
+    }).filter(r=>!Number.isNaN(r.ano));
+  }
+  if(ufCatT.status==='fulfilled'){
+    UF_CAT_ANO = parseCSV(ufCatT.value).map(r=>({
+      uf:String(r.uf),
+      ano:+r.ano,
+      sigla: r.sigla? String(r.sigla) : null,
+      categoria: r.categoria? String(r.categoria) : null,
+      quantidade:+r.quantidade
+    })).filter(r=>!Number.isNaN(r.ano));
+  }
+  if(popT.status==='fulfilled'){
+    POP_UF = parseCSV(popT.value).map(r=>({ uf:String(r.uf), ano:+r.ano, populacao:+String(r.populacao).replace(/\./g,'').replace(',','.') }))
+                                 .filter(r=>!Number.isNaN(r.ano));
+  } else {
+    POP_UF = []; // opcional
+  }
+}
+
+/* ====== DERIVADOS ====== */
+function anosDisponiveis(){ return unique(UF_ANO.map(d=>d.ano)).sort((a,b)=>a-b); }
+function ufsDisponiveis(){ return unique(UF_ANO.map(d=>d.uf)).sort(); }
+function serieUF(uf){
+  const mapa = new Map(UF_ANO.filter(d=>d.uf===uf).map(d=>[d.ano,d.quantidade]));
+  return anosDisponiveis().map(y=> mapa.has(y)? mapa.get(y) : null);
+}
+function serieBR(){
+  const mapa = new Map(BR_ANO.map(d=>[d.ano,d.quantidade]));
+  return anosDisponiveis().map(y=> mapa.has(y)? mapa.get(y) : null);
+}
+function computeDfRankHistory(){
+  const anos = anosDisponiveis(); const out=[];
+  anos.forEach(ano=>{
+    const lista = UF_ANO.filter(d=>d.ano===ano)
+                        .reduce((acc,cur)=>{ acc[cur.uf]=(acc[cur.uf]||0)+cur.quantidade; return acc; },{});
+    const ordenado = Object.entries(lista).sort((a,b)=>b[1]-a[1]).map(x=>x[0]);
+    const pos = ordenado.indexOf(UF_REF);
+    if(pos>=0) out.push({ano, posicao:pos+1});
+  });
+  return out;
+}
+function getCdCounts(year){
+  const isCD = r => (r.sigla && r.sigla.toUpperCase()==='CD') || (r.categoria && /cirurg/i.test(r.categoria));
+  const rows = UF_CAT_ANO.filter(r=>r.ano===year && isCD(r));
+  const df = rows.filter(r=>r.uf===UF_REF).reduce((s,r)=>s+r.quantidade,0);
+  const br = rows.reduce((s,r)=>s+r.quantidade,0);
+  return { df, br };
+}
+function getPopulation(year){
+  if(!POP_UF.length) return null;
+  const df = POP_UF.find(r=>r.uf===UF_REF && r.ano===year)?.populacao ?? null;
+  const br = POP_UF.filter(r=>r.ano===year).reduce((s,r)=>s+(r.populacao||0),0) || null;
+  return { df, br };
+}
+
+/* ====== UI NAV ====== */
+function showSection(id){
+  document.querySelectorAll('.content-section').forEach(s=>s.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.querySelectorAll('.nav-button').forEach(b=>b.classList.remove('active'));
+  document.querySelectorAll(`button[onclick*="showSection('${id}')"]`).forEach(b=>b.classList.add('active'));
+}
+function toggleMobile(force){ const m=document.getElementById('mobile-menu'); if(force===false){m.classList.add('hidden');return;} m.classList.toggle('hidden'); }
+document.getElementById('mobile-toggle').addEventListener('click', ()=>toggleMobile());
+
+/* ====== BOTÕES DE UF (todas as UFs + controles) ====== */
+function buildUFButtons(){
+  const holder = document.getElementById('uf-buttons');
+  holder.innerHTML = '';
+
+  // Barra de controles rápidos
+  const controls = document.createElement('div');
+  controls.className = 'flex flex-wrap justify-center gap-2 mb-2';
+
+  const btnAll = document.createElement('button');
+  btnAll.className = 'px-3 py-2 rounded-full text-sm bg-gray-100 hover:bg-gray-200';
+  btnAll.textContent = 'Selecionar todas';
+  btnAll.addEventListener('click', () => {
+    document.querySelectorAll('#uf-buttons .state-select').forEach(b => b.classList.add('active'));
+    renderGrowthChart();
+  });
+
+  const btnNone = document.createElement('button');
+  btnNone.className = 'px-3 py-2 rounded-full text-sm bg-gray-100 hover:bg-gray-200';
+  btnNone.textContent = 'Limpar seleção';
+  btnNone.addEventListener('click', () => {
+    document.querySelectorAll('#uf-buttons .state-select').forEach(b => b.classList.remove('active'));
+    // Mantém DF e Brasil ligados como padrão
+    document.querySelectorAll('#uf-buttons .state-select').forEach(b => {
+      if (b.dataset.uf === 'Brasil' || b.dataset.uf === UF_REF) b.classList.add('active');
+    });
+    renderGrowthChart();
+  });
+
+  controls.appendChild(btnAll);
+  controls.appendChild(btnNone);
+  holder.appendChild(controls);
+
+  // Botões: Brasil + TODAS as UFs do CSV
+  const lista = ['Brasil', ...ufsDisponiveis()];
+  const wrap = document.createElement('div');
+  wrap.className = 'flex flex-wrap justify-center gap-2';
+
+  lista.forEach(uf => {
+    const btn = document.createElement('button');
+    btn.className = 'state-select px-3 py-2 rounded-full text-sm font-medium bg-gray-200 text-gray-700';
+    btn.dataset.uf = uf;
+    btn.textContent = uf;
+
+    // Ativos por padrão: DF e Brasil
+    if (uf === 'Brasil' || uf === UF_REF) btn.classList.add('active');
+
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      renderGrowthChart();
+    });
+
+    wrap.appendChild(btn);
+  });
+
+  holder.appendChild(wrap);
+}
+
+function activeUFs(){ return Array.from(document.querySelectorAll('.state-select.active')).map(b=>b.dataset.uf); }
+
+/* ====== CHARTS ====== */
+function renderGrowthChart(){
+  const overlay=document.getElementById('loading-growth'); overlay.classList.remove('hidden');
+  const labels=anosDisponiveis();
+  const chosen=activeUFs();
+  const datasets=chosen.map((uf,i)=>{
+    const data = (uf==='Brasil') ? serieBR() : serieUF(uf);
+    const hue=30+i*35;
+    const color=(uf===UF_REF? '#005f73' : (uf==='Brasil'? '#0ea5e9' : `hsl(${hue},70%,45%)`));
+    const bg= uf==='Brasil' ? 'rgba(14,165,233,.16)' : (uf===UF_REF ? 'rgba(0,95,115,.16)' : `hsla(${hue},70%,45%,.16)`);
+    return { label:uf, data, borderColor:color, backgroundColor:bg, tension:.25, spanGaps:true, pointRadius:3, fill:false };
+  });
+  if(growthChart) growthChart.destroy();
+  growthChart = new Chart(document.getElementById('growthChart').getContext('2d'), {
+    type:'line',
+    data:{ labels, datasets },
+    options:{ responsive:true, maintainAspectRatio:false, scales:{ y:{ beginAtZero:true, title:{display:true,text:'Total de profissionais'} } }, plugins:{ legend:{position:'top'} } }
+  });
+  overlay.classList.add('hidden');
+}
+function renderRankingChart(){
+  const labels=RANK.map(d=>d.uf), data=RANK.map(d=>d.quantidade);
+  const bg=labels.map(u=>u===UF_REF?'#005f73':'#e5e7eb');
+  if(rankingChart) rankingChart.destroy();
+  rankingChart = new Chart(document.getElementById('rankingChart').getContext('2d'), {
+    type:'bar', data:{labels, datasets:[{data, backgroundColor:bg}]},
+    options:{ responsive:true, maintainAspectRatio:false, indexAxis:'y', scales:{x:{beginAtZero:true}}, plugins:{legend:{display:false}} }
+  });
+  document.getElementById('rank-ano').textContent=RANKING_ANO;
+}
+function renderRankEvolution(){
+  const hist=computeDfRankHistory();
+  if(rankEvolutionChart) rankEvolutionChart.destroy();
+  rankEvolutionChart = new Chart(document.getElementById('rankEvolutionChart').getContext('2d'), {
+    type:'line',
+    data:{ labels:hist.map(d=>d.ano), datasets:[{data:hist.map(d=>d.posicao), label:'Posição', borderColor:'#005f73', tension:.25, fill:false}] },
+    options:{ responsive:true, maintainAspectRatio:false, scales:{ y:{ reverse:true, min:1, ticks:{stepSize:1}, title:{display:true,text:'Posição (1 = topo)'} } }, plugins:{legend:{display:false}} }
+  });
+}
+function renderComposition(){
+  if(!MIX || !MIX.labels.length) return;
+  const colors=['#005f73','#94d2bd','#e9d8a6','#ee9b00','#bb3e03','#ae2012','#6b7280','#22c55e'].slice(0, MIX.labels.length);
+  if(compositionDfChart) compositionDfChart.destroy();
+  if(compositionBrChart) compositionBrChart.destroy();
+  compositionDfChart = new Chart(document.getElementById('compositionDfChart').getContext('2d'), {
+    type:'doughnut', data:{labels:MIX.labels, datasets:[{data:MIX.df, backgroundColor:colors, borderColor:'#fff', borderWidth:2}]},
+    options:{responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'top'}}}
+  });
+  compositionBrChart = new Chart(document.getElementById('compositionBrChart').getContext('2d'), {
+    type:'doughnut', data:{labels:MIX.labels, datasets:[{data:MIX.br, backgroundColor:colors, borderColor:'#fff', borderWidth:2}]},
+    options:{responsive:true, maintainAspectRatio:false, plugins:{legend:{position:'top'}}}
+  });
+}
+/* mini gráfico só com %CD DF x BR */
+function renderCdShare(){
+  if(!MIX || !MIX.labels.length) return;
+  const idxCD = MIX.labels.findIndex(l=>/cirurg/i.test(l));
+  if(idxCD<0) return;
+  const data=[MIX.df[idxCD], MIX.br[idxCD]];
+  const labels=['DF','Brasil'];
+  if(cdShareChart) cdShareChart.destroy();
+  cdShareChart = new Chart(document.getElementById('cdShareChart').getContext('2d'),{
+    type:'bar',
+    data:{ labels, datasets:[{ data, backgroundColor:['#005f73','#0ea5e9'] }] },
+    options:{ responsive:true, maintainAspectRatio:false, indexAxis:'y',
+      scales:{ x:{ beginAtZero:true, max:100, title:{display:true,text:'% no mix'} } },
+      plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label:c=>`${c.raw.toFixed(1)}%` } } }
+    }
+  });
+}
+
+/* Heatmap */
+function renderHeatmap(){
+  if(!YOY.length) return;
+  const head=document.getElementById('heatmap-head'), body=document.getElementById('heatmap-body');
+  head.innerHTML=''; body.innerHTML='';
+  const headers = Object.keys(YOY[0]).filter(k=>k!=='ano'); // UFs
+  const trh=document.createElement('tr');
+  trh.innerHTML = ['Ano', ...headers].map(t=>`<th class="px-2 py-2 text-xs font-semibold">${t}</th>`).join('');
+  head.appendChild(trh);
+  YOY.forEach(row=>{
+    const tr=document.createElement('tr');
+    let html=`<td class="px-2 py-2 text-xs font-semibold">${row.ano}</td>`;
+    headers.forEach(uf=>{
+      const v=row[uf]; const bg=colorForYoY(v);
+      html+=`<td class="heatmap-cell" style="background:${bg}">${(v==null||isNaN(v))?'—':v.toFixed(1).replace('.',',')+'%'}</td>`;
+    });
+    tr.innerHTML=html; body.appendChild(tr);
+  });
+}
+
+/* KPIs topo */
+function renderKPIs(){
+  const anos=anosDisponiveis(); const y0=anos[0], y1=anos[anos.length-1];
+  const sDF = anos.map(ano=>{
+    const total = UF_ANO.filter(d=>d.uf===UF_REF && d.ano===ano).reduce((s,r)=>s+r.quantidade,0);
+    return {ano, quantidade: total};
+  });
+  const c = cagr(sDF[0]?.quantidade, sDF[sDF.length-1]?.quantidade, y1-y0);
+  document.getElementById('kpi-cagr').textContent = c==null? '—' : fmtPct(c);
+  const yoyList = yoyPercentList(sDF);
+  document.getElementById('kpi-yoy-ultimo').textContent = fmtPct(yoyList[yoyList.length-1] ?? null);
+  document.getElementById('kpi-ano-fim').textContent = String(y1);
+  const pos = RANK.map(d=>d.uf).indexOf(UF_REF);
+  document.getElementById('kpi-rank').textContent = pos>=0? (pos+1)+'ª' : '—';
+}
+
+/* Paradoxo KPIs (densidades) */
+function renderParadoxKPIs(){
+  const anos=anosDisponiveis(); const y1=anos[anos.length-1];
+  let ratioDF=PARADOXO_DEFAULTS.df_cd_ratio, ratioBR=PARADOXO_DEFAULTS.br_cd_ratio;
+
+  if(UF_CAT_ANO.length && POP_UF.length){
+    const {df:cdDF, br:cdBR} = getCdCounts(y1);
+    const pop = getPopulation(y1);
+    if(cdDF>0 && pop?.df>0) ratioDF = Math.round(pop.df / cdDF);
+    if(cdBR>0 && pop?.br>0) ratioBR = Math.round(pop.br / cdBR);
+  }
+  document.getElementById('kpi-ratio-df').textContent = '1:'+ (ratioDF||'—');
+  document.getElementById('kpi-ratio-br').textContent = '1:'+ (ratioBR||'—');
+  document.getElementById('kpi-sus-df').textContent = '1:'+ PARADOXO_DEFAULTS.sus_df_ratio;
+  document.getElementById('kpi-vagas').textContent   = PARADOXO_DEFAULTS.vagas_df.toLocaleString('pt-BR');
+}
+
+/* ====== INIT ====== */
+(async function init(){
+  try{
+    document.getElementById('loading-growth').classList.remove('hidden');
+    await loadAll();
+  }catch(e){
+    console.error(e);
+  }finally{
+    document.getElementById('loading-growth').classList.add('hidden');
+  }
+
+  // Monta botões para TODAS as UFs + Brasil
+  buildUFButtons();
+
+  // Renderizações
+  renderGrowthChart();
+  renderRankingChart();
+  renderRankEvolution();
+  renderComposition();
+  renderCdShare();
+  renderHeatmap();
+  renderKPIs();
+  renderParadoxKPIs();
+})();
+</script>
+</body>
+</html>
