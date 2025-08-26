@@ -7,6 +7,7 @@
 [![Made with ❤️ in DF](https://img.shields.io/badge/made%20in-DF-red.svg)](#autor)
 
 > Estudo de dados do CRO (2010–último ano disponível) sobre **profissionais e entidades** da odontologia, com foco no **Distrito Federal (DF)** e comparação com outras UFs do Brasil. O repo traz **código de análise**, **gráficos prontos** e um **dashboard interativo** em HTML para explorar as séries (inclui linha do **Brasil** e seleção de **todas as UFs**).
+Para visualizar o dashboard [clique aqui!]( https://lucasrodor.github.io/odontologia_df/analise_odonto.html)
 
 ---
 
