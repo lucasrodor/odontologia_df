@@ -173,14 +173,14 @@ comparativo_mix = pd.merge(
 ).fillna(0).sort_values("% Brasil", ascending=False)
 
 # # ============== 6) Salva CSVs de resumo ==============
-# uf_ano.to_csv("resumo_uf_por_ano.csv", index=False)
-# uf_cat_ano.to_csv("resumo_uf_categoria_por_ano.csv", index=False)
-# br_ano.to_csv("resumo_brasil_por_ano.csv", index=False)
-# rank_ultimo_ano.to_csv(f"ranking_ufs_{ultimo_ano}.csv", index=False)
-# comparativo_mix.to_csv(f"mix_df_vs_brasil_{ultimo_ano}.csv", index=False)
-# cagr_por_uf.to_csv("cagr_por_uf.csv", index=False)
+# uf_ano.to_csv("data\\resumo_uf_por_ano.csv", index=False)
+# uf_cat_ano.to_csv("data\\resumo_uf_categoria_por_ano.csv", index=False)
+# br_ano.to_csv("data\\resumo_brasil_por_ano.csv", index=False)
+# rank_ultimo_ano.to_csv(f"data\\ranking_ufs_{ultimo_ano}.csv", index=False)
+# comparativo_mix.to_csv(f"data\\mix_df_vs_brasil_{ultimo_ano}.csv", index=False)
+# cagr_por_uf.to_csv("data\\cagr_por_uf.csv", index=False)
 # if not yoy_por_uf.empty:
-#     yoy_por_uf.to_csv("yoy_percent_por_uf.csv")
+#     yoy_por_uf.to_csv("data\\yoy_percent_por_uf.csv")
 
 # print("\nArquivos CSV gerados:")
 # print("- resumo_uf_por_ano.csv")
