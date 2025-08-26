@@ -189,6 +189,7 @@ Alguns navegadores podem bloquear `fetch` de CSV local; se isso acontecer, use a
 - **Sem per capita nativo**: densidades dependem de **dados externos de população** (arquivo opcional).
 - **Cobertura SUS**: métricas de rede pública podem exigir apurações específicas (concursos, credenciamentos, equipes).
 - **Qualidade de cadastro**: séries administrativas podem ter sub/registros ou revisões.
+- **Dados não atualizados**: o projeto foi desenvolvido no dia 25/08/2025, ou seja a análise real do dados do ano de 2025 ainda não possível ser feita, uma vez que o ano ainda não acabou.
 
 ---
 
